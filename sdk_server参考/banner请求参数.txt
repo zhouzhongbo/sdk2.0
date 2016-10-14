@@ -1,0 +1,41 @@
+request：
+
+
+	http https ://  ads.mopub.com/m/ad   
+	? 或 &
+	v=6  （apiVersion）
+	id = "adadf"
+	nv = "12"  (sdkversion)
+	dn = "Build.MANUFACTURER,Build.MODEL,Build.PRODUCT" (deviceinfo)
+	bundle = "mAppPackageName"
+	q="afasfdasd"   (keywords)
+	
+	ll=			(location)
+	lla=                    详细介绍见AdUrlGenerator.java
+	llf=
+	llsdk=	
+	
+	z=""	timezone
+	o=""    orientation
+	w=""	Dimensions
+	h=""
+	sc_a=""   Density
+	mcc=""
+	mnc=""
+	iso=""   country code
+	cn =""  networkOperatorName
+	ct="" net type
+	av=""  app version
+	
+	udid=""    (广告特殊key/values)
+	dnt=""
+	
+	mr=""    (Whether or not this is using mraid)
+	android_perms_ext_storage="1/0"    (ExternalStoragePermission)
+	
+	
+	
+	
+result:	
+	
+	

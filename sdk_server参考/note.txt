@@ -1,0 +1,9 @@
+1.未创建3rd-appid时，如何验证我们的server是通的？
+    a.需要server返回相关的test assets；---->走本地广告分发流程
+    b.自动填写testID？--->无广告分发，直接请求中介
+
+
+
+2.自动集成实现
+    参照baas  上传到github；
+    
