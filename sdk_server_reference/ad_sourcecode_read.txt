@@ -1,0 +1,74 @@
+请求 server时，server会确认是否通过该请求，如果通过，会替换合适的值；这两项可能会用于防作弊系统
+
+ /**
+     * Appends special keys/values for advertising id and do-not-track. PlayServicesUrlRewriter will
+     * replace these templates with the correct values when the request is processed.
+     */
+    protected void appendAdvertisingInfoTemplates() {
+        addParam("udid", PlayServicesUrlRewriter.UDID_TEMPLATE);
+        addParam("dnt", PlayServicesUrlRewriter.DO_NOT_TRACK_TEMPLATE);
+    }
+
+
+
+
+关于视频：
+1.因为是聚合平台，自身不分发广告，故可以去掉视频广告请求展现流程。
+  广告聚合平台参考mopub自身说明，可以知道支持的广告类型为基本类型
+  admob,facebook,inmobi ——>三种基本类型
+
+Network			Network SDK	Network Compatible Version	Supported Ad Formats
+Millennial Media	iOS,  		Android	6.0			iOS: Banner, Interstitial
+									Android: Banner, Interstitial, Native (Android-only)
+
+AdMob [Google]		iOS, Android	iOS: 7.1.0, 
+					Android: 7.8.0			Banner, Interstitial
+
+Facebook Audience	iOS, Android	iOS/Android: 4.10.1		Banner, Interstitial, Native
+
+AdColony		iOS, Android	iOS: 2.4.12, Android,		
+					Rewarded Video: 2.3.5		Interstitial, Rewarded Video
+
+Chartboost		iOS, Android	iOS 6.4.0, Android 6.4.1	Interstitial, Rewarded Video
+
+
+Conversant		iOS, Android	iOS: 4.4.0, Android: 2.4.0	Banner, Interstitial
+
+Tapjoy			iOS, Android	iOS/Android: 11.3.0	Interstitial, Rewarded Video
+
+Yahoo! Gemini		iOS, Android		For instructions, visit Yahoo!’s doc page.
+
+Unity Ads*		iOS, Android	iOS: 1.5.6 Android: 1.4.7	Rewarded Video
+
+Vungle			iOS, Android	iOS: 3.2.0, Android: 3.3.0	Interstitial, Rewarded Video
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+设计优点：
+1.关于webview中如果处理img 背景问题：
+他们通过在文件中写bitmap的byte值，在设置为enmu值。这样避免了需要单独存储img文件的问题。
+
+2.关于动态添加button后续的处理；
+直接通过返回对象来判断，而不是设置ID，因为ID有冲突的风险！
+
+3.广告浏览页 控制栏在底部，close独立化
+ UI虽然丑了点，但是胜在稳定
+
+4.增加了接入广告activity的生命周期监听，用于做多种数据验证！
