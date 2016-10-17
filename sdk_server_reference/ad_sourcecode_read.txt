@@ -43,9 +43,23 @@ Unity Ads*		iOS, Android	iOS: 1.5.6 Android: 1.4.7	Rewarded Video
 Vungle			iOS, Android	iOS: 3.2.0, Android: 3.3.0	Interstitial, Rewarded Video
 
 
+关于广告的显示控制：
+1.建议控制不要放在SDK，SDK只用来做广告的请求，展示，——>控制流程放在server也便于后续的逻辑更新，不必频繁的更新SDK -jar，特别是目前的SDK是不支持做自更新的情况！
+
+2.通过回环控制，目前是sdk2.0 的V1版本，通过获取配置表来获取访问不同版本的接口。
 
 
 
+banner:
+1.广告位大小参数从哪里传递？adwith,adheight—>本地对广告位大小做了相关的校验，不符合大小的，将提示无法适配的错误
+2.google-loadad —-是否需要设置代理？（setRequestAgent("MoPub")）
+3.create流程：
+  mopub.banner—>loadcustomadapter—>create customeventbanner—>具体的实现类（实现了各个平台对聚合平台的扩展）—>创建的广告通过listener回传给adapter，由adapter添加到mopub的根试图中。
+
+  看到mopub自己平台和聚合平台的pk关系为：
+	1.从平台选取一个network 配置，请求；
+	2.请求成功即可展现，请求失败，重新访问请求URL，并附上上次请求状态（fail= 1）
+	3.重复以上步骤，直至成功获取到广告
 
 
 
@@ -72,3 +86,14 @@ Vungle			iOS, Android	iOS: 3.2.0, Android: 3.3.0	Interstitial, Rewarded Video
  UI虽然丑了点，但是胜在稳定
 
 4.增加了接入广告activity的生命周期监听，用于做多种数据验证！
+
+5.关于重定向，是否有需要用到？
+
+6.关于IOS & web 是否需要支持？ ios同样有开源代码，web还不确认！
+
+7.平台采集了很多数据，自建平台是否继续支持？
+    1.之前提到的替换的ID
+    2.performanceDurationMs
+    3.requestID
+
+8.为了适应mopub平台，数据采集的方式可能需要修改，不应该在用字段json上传的方式去做
