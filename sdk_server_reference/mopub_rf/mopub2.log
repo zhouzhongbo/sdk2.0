@@ -1,0 +1,40 @@
+GET /m/imp?appid=&cid=97e7dceb167849eba23fa8246133a437&city=Taipei&ckv=2&country_code=TW&cppck=2895A&dev=S100&exclude_adgroups=270d912a799b4c41818051ad2b047eba%2C653dd154861e11e68f31002590f3db4c&id=9e851241d2954ea88b7c0810b6ac6550&is_mraid=0&os=Android&osv=4.4.4&req=82fc28cd502b4ddba8931d8ff02eb62f&reqt=1476856350.0&rev=0.000010&udid=sha%3A3fa0b4c86e7c6866ceee566dc065100a2544771b&video_type= HTTP/1.1
+Host: ads.mopub.com
+Connection: keep-alive
+Accept: image/webp,*/*;q=0.8
+x-wap-profile: http://218.249.47.94/Xianghe/MTK_LTE_Phone_KK_UAprofile.xml
+User-Agent: Mozilla/5.0 (Linux; Android 4.4.4; S100 Build/KTU84P) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/33.0.0.0 Mobile Safari/537.36
+Referer: http://ads.mopub.com/
+Accept-Encoding: gzip,deflate
+Accept-Language: zh-CN,en-US;q=0.8
+X-Requested-With: com.idroi.mysecurity
+
+
+HTTP/1.1 200 OK
+content-encoding: gzip
+content-length: 34
+content-type: text/html; charset=ISO-8859-1
+date: Wed, 19 Oct 2016 05:52:33 GMT
+server: tsa_b
+x-connection-hash: 6368e9da8cd41895807796df19b668f7
+x-response-time: 28
+x-xss-protection: 1; mode=block
+
+
+GET /favicon.ico HTTP/1.1
+Host: ads.mopub.com
+Connection: keep-alive
+Accept: */*
+User-Agent: Mozilla/5.0 (Linux; Android 4.4.4; S100 Build/KTU84P) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/33.0.0.0 Mobile Safari/537.36
+Accept-Encoding: gzip,deflate
+Accept-Language: zh-CN,en-US;q=0.8
+X-Requested-With: com.idroi.mysecurity
+
+
+HTTP/1.1 200 OK
+content-length: 1150
+content-type: image/x-icon
+date: Wed, 19 Oct 2016 05:52:34 GMT
+server: tsa_b
+x-connection-hash: 6368e9da8cd41895807796df19b668f7
+x-response-time: 2

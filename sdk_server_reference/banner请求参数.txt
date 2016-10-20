@@ -1,16 +1,14 @@
-request：
-
-
+request type：
 	http https ://  ads.mopub.com/m/ad   
 	? 或 &
 	v=6  （apiVersion）
-	id = "adadf"
+	id = ""  adslotid
 	nv = "12"  (sdkversion)
 	dn = "Build.MANUFACTURER,Build.MODEL,Build.PRODUCT" (deviceinfo)
 	bundle = "mAppPackageName"
 	q="afasfdasd"   (keywords)
 	
-	ll=			(location)
+	ll=			(location msg)
 	lla=                    详细介绍见AdUrlGenerator.java
 	llf=
 	llsdk=	
@@ -32,10 +30,126 @@ request：
 	
 	mr=""    (Whether or not this is using mraid)
 	android_perms_ext_storage="1/0"    (ExternalStoragePermission)
-	
-	
-	
-	
-result:	
-	
-	
+
+eg：	
+第一次请求
+url: http://ads.mopub.com/m/ad?v=6&id=9e851241d2954ea88b7c0810b6ac6550&nv=4.9.0&dn=koobee%2CS100%2CS100&bundle=com.idroi.mysecurity&z=%2B0800&o=p&w=720&h=1280&sc_a=2.0&ct=2&av=1.0&udid=mp_tmpl_advertising_id&dnt=mp_tmpl_do_not_track&mr=1&android_perms_ext_storage=1
+第一次请求失败，第二次请求
+url: http://ads.mopub.com/m/ad?v=6&id=9e851241d2954ea88b7c0810b6ac6550&nv=4.9.0&dn=koobee%2CS100%2CS100&bundle=com.idroi.mysecurity&z=%2B0800&o=p&w=720&h=1280&sc_a=2.0&ct=2&av=1.0&udid=sha%3A3fa0b4c86e7c6866ceee566dc065100a2544771b&dnt=0&mr=1&android_perms_ext_storage=1&exclude=653dd154861e11e68f31002590f3db4c&request_id=d6971ceea23c4351956aca44382b4d85&fail=1
+返回数据
+AFMA_getAd(
+
+{"seq_num":"1","prefetch_mode":"url","js":"afma-sdk-a-v9683000.9683000.0","quality_signals":{"ads":[],"app":{"preqs":0,"support_transparent_background":true,"session_id":"17311294353913174221","pimp":0,"seq_num":"1","currts":1025868,"preqs_in_session":0,"pclick":0,"basets":1025868},"slots":{}},"android_app_muted":false,"correlation_id":0,"sdk_env":{"build_meta":{"rapid_rollup":"HEAD","rapid_rc":"dev","cl":"134102376"},"mf":"false"},"submodel":"S100","capability":{"app_streaming_supported":false,"iap_supported":false,"default_iap_supported":false},"sw":720,"platform":"koobee","sp":0,"format":"320x50_mb","target_api":24,"scroll_index":-1,"request_pkg":"com.mopub.mobileads.GooglePlayServicesBanner","sh":1280,"ad_pos":{"height":0,"visible":0,"y":0,"width":0,"x":0},"extras":{},"gl":"CN","android_num_video_cache_tasks":0,"extra_caps":"","pn":"com.idroi.mysecurity","session_id":"17311294353913174221","slotname":"ca-app-pub-6704987105764608\/2094500374","rm":2,"request_agent":"MoPub","android_app_volume":1,"hl":"zh","cache_state":{},"category_exclusions":[],"gnt":0,"ma":0,"vc":1,"_activity_context":true,"u_sd":2,"cnt":1,"muv":6,"riv":0,"custom_targeting":{},"ms":"CoAC3lDuxMP7Y2vdBemfbaR-2333jWj54FIugXjU2wnhuKLWhKm4wBwo_yWGgjvUHUds5J8YJ9lZs1onM3QagP4uxG0-FLzx63utqW25SkmQzYgjlmhP2d5VS6SHJzR_x6OVhjUVSGU2RxPid9dzbEGJa1tfOw-OuTQSU3_ohlMol4txRqQyApQillJozdZfbzg5-pgxaRD77SkbB0rMq_os4dGD5hLX-PMYvF34PL9qqri724EhUKo9nLGmx4elVWV-vZviOC2bQmWrf4XXDT9eQcC6s3rKK2YLby0oFcIwg7DVjHwieqoonq4LlZqnAg2MIndrAo_3k2p5II35nL7KXRIQkNkB6dDSVSCSDJ7LDMFRpw","mv":"12053.com.wandoujia.phoenix2","gct":"","is_designed_for_families":false,"coh":1,"pii":{},"render_in_browser":false,"request_id":"5b2246b2-61f1-4d1a-a72b-b7116d547985","am":0,"cog":1,"pt":1,"device":{"browser":{"is_browser_custom_tabs_capable":false},"build":"koobee\/full_k509\/k509:4.4.4\/KTU84P\/1434118034:user\/test-keys","android_mem_info":{"runtime_free":"811824","runtime_total":"7462912","runtime_max":"134217728"},"play_store":{"parental_controls":{}},"network":{"active_network_state":5,"active_network_metered":false},"battery":{"is_charging":true,"battery_level":0.11999999731779099}}});
+
+
+D/WebViewCallback( 3435): shouldOverrideUrlLoading=
+gmsg://mobileads.google.com/loadAdURL?drt_include=1&pan_include=0&request_id=5b2246b2-61f1-4d1a-a72b-b7116d547985&request_scenario=online_request&type=admob&url=https%3A%2F%2Fgoogleads.g.doubleclick.net%2Fmads%2Fgma%3Fseq_num%3D1%26prefetch_mode%3Durl%26js%3Dafma-sdk-a-v9683000.9683000.0%26android_app_muted%3Dfalse%26submodel%3DS100%26platform%3Dkoobee%26sp%3D0%26format%3D320x50_mb%26target_api%3D24%26scroll_index%3D-1%26request_pkg%3Dcom.mopub.mobileads.GooglePlayServicesBanner%26gl%3DCN%26android_num_video_cache_tasks%3D0%26session_id%3D17311294353913174221%26rm%3D2%26request_agent%3DMoPub%26android_app_volume%3D1%26hl%3Dzh-CN%26gnt%3D0%26ma%3D0%26_activity_context%3Dtrue%26u_sd%3D2%26cnt%3D1%26muv%3D6%26riv%3D0%26ms%3DCoAC3lDuxMP7Y2vdBemfbaR-2333jWj54FIugXjU2wnhuKLWhKm4wBwo_yWGgjvUHUds5J8YJ9lZs1onM3QagP4uxG0-FLzx63utqW25SkmQzYgjlmhP2d5VS6SHJzR_x6OVhjUVSGU2RxPid9dzbEGJa1tfOw-OuTQSU3_ohlMol4txRqQyApQillJozdZfbzg5-pgxaRD77SkbB0rMq_os4dGD5hLX-PMYvF34PL9qqri724EhUKo9nLGmx4elVWV-vZviOC2bQmWrf4XXDT9eQcC6s3rKK2YLby0oFcIwg7DVjHwieqoonq4LlZqnAg2MIndrAo_3k2p5II35nL7KXRIQkNkB6dDSVSCSDJ7LDMFRpw%26mv%3D12053.com.wandoujia.phoenix2%26coh%3D1%26request_id%3D5b2246b2-61f1-4d1a-a72b-b7116d547985%26am%3D0%26cap%3Da%26u_w%3D360%26u_h%3D640%26msid%3Dcom.idroi.mysecurity%26app_name%3D1.android.com.idroi.mysecurity%26_package_name%3Dcom.idroi.mysecurity%26an%3D1.android.com.idroi.mysecurity%26net%3Dwi%26u_audio%3D1%26u_so%3Dp%26preqs%3D0%26support_transparent_background%3Dtrue%26pimp%3D0%26currts%3D1025868%26preqs_in_session%3D0%26pclick%3D0%26basets%3D1025868%26output%3Dhtml%26region%3Dmobile_app%26u_tz%3D480%26client_sdk%3D1%26ex%3D1%26client%3Dca-app-pub-6704987105764608%26slotname%3D2094500374%26gsb%3Dwi%26caps%3DinlineVideo_interactiveVideo_mraid1_mraid2_sdkVideo_th_autoplay_mediation_av_transparentBackground_sdkAdmobApiForAds_di_sfv_dinm_dim_nav_dinmo%26bisch%3Dtrue%26blev%3D0.12%26swdr%3Dfalse%26cans%3D5%26canm%3Dfalse%26heap_free%3D811824%26heap_max%3D134217728%26heap_total%3D7462912%26blockAutoClicks%3Dtrue%26_efs%3Dfalse%26forceHttps%3Dtrue%26includeDoritos%3Dtrue%26eid%3D46621136%26tcar%3D65%26jsv%3D4-production-20161010_RC00%26urll%3D1699%23_activity_context%3Dtrue%26android_num_video_cache_tasks%3D0%26caps%3DinlineVideo_interactiveVideo_mraid1_mraid2_sdkVideo_th_autoplay_mediation_av_transparentBackground_sdkAdmobApiForAds_di_sfv_dinm_dim_nav_dinmo%26eid%3D46621136%26format%3D320x50_mb%26heap_free%3D811824%26heap_max%3D134217728%26heap_total%3D7462912%26js%3Dafma-sdk-a-v9683000.9683000.0%26msid%3Dcom.idroi.mysecurity%26preqs%3D0%26request_pkg%3Dcom.mopub.mobileads.GooglePlayServicesBanner%26scroll_index%3D-1%26seq_num%3D1%26target_api%3D24&base_uri=https%3A%2F%2Fgoogleads.g.doubleclick.net%2Fmads%2Fgma%3F_activity_context%3Dtrue%26android_num_video_cache_tasks%3D0%26caps%3DinlineVideo_interactiveVideo_mraid1_mraid2_sdkVideo_th_autoplay_mediation_av_transparentBackground_sdkAdmobApiForAds_di_sfv_dinm_dim_nav_dinmo%26eid%3D46621136%26format%3D320x50_mb%26heap_free%3D811824%26heap_max%3D134217728%26heap_total%3D7462912%26js%3Dafma-sdk-a-v9683000.9683000.0%26msid%3Dcom.idroi.mysecurity%26preqs%3D0%26request_pkg%3Dcom.mopub.mobileads.GooglePlayServicesBanner%26scroll_index%3D-1%26seq_num%3D1%26target_api%3D24%23_activity_context%3Dtrue%26android_num_video_cache_tasks%3D0%26caps%3DinlineVideo_interactiveVideo_mraid1_mraid2_sdkVideo_th_autoplay_mediation_av_transparentBackground_sdkAdmobApiForAds_di_sfv_dinm_dim_nav_dinmo%26eid%3D46621136%26format%3D320x50_mb%26heap_free%3D811824%26heap_max%3D134217728%26heap_total%3D7462912%26js%3Dafma-sdk-a-v9683000.9683000.0%26msid%3Dcom.idroi.mysecurity%26preqs%3D0%26request_pkg%3Dcom.mopub.mobileads.GooglePlayServicesBanner%26scroll_index%3D-1%26seq_num%3D1%26target_api%3D24&use_webview_loadurl=0&enable_auto_click_protection=1&google.afma.Notify_dt=1477034887728
+
+
+
+{
+    "seq_num": "1",
+    "prefetch_mode": "url",
+    "js": "afma-sdk-a-v9683000.9683000.0",
+    "quality_signals": {
+        "ads": [],
+        "app": {
+            "preqs": 0,
+            "support_transparent_background": true,
+            "session_id": "17311294353913174221",
+            "pimp": 0,
+            "seq_num": "1",
+            "currts": 1025868,
+            "preqs_in_session": 0,
+            "pclick": 0,
+            "basets": 1025868
+        },
+        "slots": {}
+    },
+    "android_app_muted": false,
+    "correlation_id": 0,
+    "sdk_env": {
+        "build_meta": {
+            "rapid_rollup": "HEAD",
+            "rapid_rc": "dev",
+            "cl": "134102376"
+        },
+        "mf": "false"
+    },
+    "submodel": "S100",
+    "capability": {
+        "app_streaming_supported": false,
+        "iap_supported": false,
+        "default_iap_supported": false
+    },
+    "sw": 720,
+    "platform": "koobee",
+    "sp": 0,
+    "format": "320x50_mb",
+    "target_api": 24,
+    "scroll_index": -1,
+    "request_pkg": "com.mopub.mobileads.GooglePlayServicesBanner",
+    "sh": 1280,
+    "ad_pos": {
+        "height": 0,
+        "visible": 0,
+        "y": 0,
+        "width": 0,
+        "x": 0
+    },
+    "extras": {},
+    "gl": "CN",
+    "android_num_video_cache_tasks": 0,
+    "extra_caps": "",
+    "pn": "com.idroi.mysecurity",
+    "session_id": "17311294353913174221",
+    "slotname": "ca-app-pub-6704987105764608/2094500374",
+    "rm": 2,
+    "request_agent": "MoPub",
+    "android_app_volume": 1,
+    "hl": "zh",
+    "cache_state": {},
+    "category_exclusions": [],
+    "gnt": 0,
+    "ma": 0,
+    "vc": 1,
+    "_activity_context": true,
+    "u_sd": 2,
+    "cnt": 1,
+    "muv": 6,
+    "riv": 0,
+    "custom_targeting": {},
+    "ms": "CoAC3lDuxMP7Y2vdBemfbaR-2333jWj54FIugXjU2wnhuKLWhKm4wBwo_yWGgjvUHUds5J8YJ9lZs1onM3QagP4uxG0-FLzx63utqW25SkmQzYgjlmhP2d5VS6SHJzR_x6OVhjUVSGU2RxPid9dzbEGJa1tfOw-OuTQSU3_ohlMol4txRqQyApQillJozdZfbzg5-pgxaRD77SkbB0rMq_os4dGD5hLX-PMYvF34PL9qqri724EhUKo9nLGmx4elVWV-vZviOC2bQmWrf4XXDT9eQcC6s3rKK2YLby0oFcIwg7DVjHwieqoonq4LlZqnAg2MIndrAo_3k2p5II35nL7KXRIQkNkB6dDSVSCSDJ7LDMFRpw",
+    "mv": "12053.com.wandoujia.phoenix2",
+    "gct": "",
+    "is_designed_for_families": false,
+    "coh": 1,
+    "pii": {},
+    "render_in_browser": false,
+    "request_id": "5b2246b2-61f1-4d1a-a72b-b7116d547985",
+    "am": 0,
+    "cog": 1,
+    "pt": 1,
+    "device": {
+        "browser": {
+            "is_browser_custom_tabs_capable": false
+        },
+        "build": "koobee/full_k509/k509:4.4.4/KTU84P/1434118034:user/test-keys",
+        "android_mem_info": {
+            "runtime_free": "811824",
+            "runtime_total": "7462912",
+            "runtime_max": "134217728"
+        },
+        "play_store": {
+            "parental_controls": {}
+        },
+        "network": {
+            "active_network_state": 5,
+            "active_network_metered": false
+        },
+        "battery": {
+            "is_charging": true,
+            "battery_level": 0.11999999731779099
+        }
+    }
+}

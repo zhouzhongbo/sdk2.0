@@ -1,0 +1,55 @@
+GET /m/ad?v=6&id=9e851241d2954ea88b7c0810b6ac6550&nv=4.9.0&dn=koobee%2CS100%2CS100&bundle=com.idroi.mysecurity&z=%2B0800&o=p&w=720&h=1280&sc_a=2.0&ct=2&av=1.0&udid=sha%3A3fa0b4c86e7c6866ceee566dc065100a2544771b&dnt=0&mr=1&android_perms_ext_storage=1 HTTP/1.1
+Accept-Language: zh
+User-Agent: Mozilla/5.0 (Linux; Android 4.4.4; S100 Build/KTU84P) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/33.0.0.0 Mobile Safari/537.36
+Host: ads.mopub.com
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+
+HTTP/1.1 200 OK
+content-encoding: gzip
+content-length: 41
+content-type: text/html; charset=UTF-8
+date: Tue, 18 Oct 2016 09:54:15 GMT
+server: tsa_b
+x-adgroupid: 653dd154861e11e68f31002590f3db4c
+x-adtype: admob_native
+x-clickthrough: http://ads.mopub.com/m/aclk?appid=&cid=653dd44c861e11e68f31002590f3db4c&city=Taipei&ckv=2&country_code=TW&cppck=A809F&dev=S100&exclude_adgroups=653dd154861e11e68f31002590f3db4c&id=9e851241d2954ea88b7c0810b6ac6550&is_mraid=0&os=Android&osv=4.4.4&req=f0e9538502e842d29fee14c4546f95bf&reqt=1476784455.0&rev=0&udid=sha%3A3fa0b4c86e7c6866ceee566dc065100a2544771b&video_type=
+x-connection-hash: 8a48f809162f42eae808be97a767d99e
+x-creativeid: 653dd44c861e11e68f31002590f3db4c
+x-failurl: http://ads.mopub.com/m/ad?v=6&id=9e851241d2954ea88b7c0810b6ac6550&nv=4.9.0&dn=koobee%2CS100%2CS100&bundle=com.idroi.mysecurity&z=%2B0800&o=p&w=720&h=1280&sc_a=2.0&ct=2&av=1.0&udid=sha%3A3fa0b4c86e7c6866ceee566dc065100a2544771b&dnt=0&mr=1&android_perms_ext_storage=1&exclude=653dd154861e11e68f31002590f3db4c&request_id=f0e9538502e842d29fee14c4546f95bf&fail=1
+x-height: 50
+x-imptracker: http://ads.mopub.com/m/imp?appid=&cid=653dd44c861e11e68f31002590f3db4c&city=Taipei&ckv=2&country_code=TW&cppck=A0EA6&dev=S100&exclude_adgroups=653dd154861e11e68f31002590f3db4c&id=9e851241d2954ea88b7c0810b6ac6550&is_mraid=0&os=Android&osv=4.4.4&req=f0e9538502e842d29fee14c4546f95bf&reqt=1476784455.0&rev=0.000050&udid=sha%3A3fa0b4c86e7c6866ceee566dc065100a2544771b&video_type=
+x-nativeparams: {"adHeight":50,"adUnitID":"ca-app-pub-6704987105764608/2094500374","adWidth":320}
+x-networktype: admob_native
+x-refreshtime: 60
+x-response-time: 24
+x-width: 320
+x-xss-protection: 1; mode=block
+
+GET
+/m/ad?v=6&id=9e851241d2954ea88b7c0810b6ac6550&nv=4.9.0&dn=koobee%2CS100%2CS100&bundle=com.idroi.mysecurity&z=%2B0800&o=p&w=720&h=1280&sc_a=2.0&ct=2&av=1.0&udid=sha%3A3fa0b4c86e7c6866ceee566dc065100a2544771b&dnt=0&mr=1&android_perms_ext_storage=1&exclude=653dd154861e11e68f31002590f3db4c&request_id=f0e9538502e842d29fee14c4546f95bf&fail=1 HTTP/1.1
+Accept-Language: zh
+User-Agent: Mozilla/5.0 (Linux; Android 4.4.4; S100 Build/KTU84P) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/33.0.0.0 Mobile Safari/537.36
+Host: ads.mopub.com
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+HTTP/1.1 200 OK
+content-encoding: gzip
+content-length: 1345
+content-type: text/html; charset=UTF-8
+date: Tue, 18 Oct 2016 09:54:16 GMT
+server: tsa_b
+x-adgroupid: 270d912a799b4c41818051ad2b047eba
+x-adtype: html
+x-clickthrough: http://ads.mopub.com/m/aclk?appid=&cid=97e7dceb167849eba23fa8246133a437&city=Taipei&ckv=2&country_code=TW&cppck=5DC8F&dev=S100&exclude_adgroups=270d912a799b4c41818051ad2b047eba%2C653dd154861e11e68f31002590f3db4c&id=9e851241d2954ea88b7c0810b6ac6550&is_mraid=0&os=Android&osv=4.4.4&req=f0e9538502e842d29fee14c4546f95bf&reqt=1476784456.0&rev=0&udid=sha%3A3fa0b4c86e7c6866ceee566dc065100a2544771b&video_type=
+x-connection-hash: 8a48f809162f42eae808be97a767d99e
+x-creativeid: 97e7dceb167849eba23fa8246133a437
+x-failurl: http://ads.mopub.com/m/ad?v=6&id=9e851241d2954ea88b7c0810b6ac6550&nv=4.9.0&dn=koobee%2CS100%2CS100&bundle=com.idroi.mysecurity&z=%2B0800&o=p&w=720&h=1280&sc_a=2.0&ct=2&av=1.0&udid=sha%3A3fa0b4c86e7c6866ceee566dc065100a2544771b&dnt=0&mr=1&android_perms_ext_storage=1&request_id=f0e9538502e842d29fee14c4546f95bf&fail=1&exclude=270d912a799b4c41818051ad2b047eba&exclude=653dd154861e11e68f31002590f3db4c&fail=1
+x-height: 50
+x-imptracker: http://ads.mopub.com/m/imp?appid=&cid=97e7dceb167849eba23fa8246133a437&city=Taipei&ckv=2&country_code=TW&cppck=FE129&dev=S100&exclude_adgroups=270d912a799b4c41818051ad2b047eba%2C653dd154861e11e68f31002590f3db4c&id=9e851241d2954ea88b7c0810b6ac6550&is_mraid=0&os=Android&osv=4.4.4&req=f0e9538502e842d29fee14c4546f95bf&reqt=1476784456.0&rev=0.000010&udid=sha%3A3fa0b4c86e7c6866ceee566dc065100a2544771b&video_type=
+x-refreshtime: 60
+x-response-time: 21
+x-width: 320
+x-xss-protection: 1; mode=block

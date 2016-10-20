@@ -1,0 +1,77 @@
+GET /m/ad?v=6&id=9e851241d2954ea88b7c0810b6ac6550&nv=4.9.0&dn=koobee%2CS100%2CS100&bundle=com.idroi.mysecurity&z=%2B0800&o=p&w=720&h=1280&sc_a=2.0&ct=2&av=1.0&udid=sha%3A3fa0b4c86e7c6866ceee566dc065100a2544771b&dnt=0&mr=1&android_perms_ext_storage=1 HTTP/1.1
+Accept-Language: zh
+User-Agent: Mozilla/5.0 (Linux; Android 4.4.4; S100 Build/KTU84P) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/33.0.0.0 Mobile Safari/537.36
+Host: ads.mopub.com
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+
+HTTP/1.1 200 OK
+content-encoding: gzip
+content-length: 41
+content-type: text/html; charset=UTF-8
+date: Wed, 19 Oct 2016 05:52:25 GMT
+server: tsa_b
+x-adgroupid: 653dd154861e11e68f31002590f3db4c
+x-adtype: admob_native
+x-clickthrough: http://ads.mopub.com/m/aclk?appid=&cid=653dd44c861e11e68f31002590f3db4c&city=Taipei&ckv=2&country_code=TW&cppck=89306&dev=S100&exclude_adgroups=653dd154861e11e68f31002590f3db4c&id=9e851241d2954ea88b7c0810b6ac6550&is_mraid=0&os=Android&osv=4.4.4&req=82fc28cd502b4ddba8931d8ff02eb62f&reqt=1476856345.0&rev=0&udid=sha%3A3fa0b4c86e7c6866ceee566dc065100a2544771b&video_type=
+x-connection-hash: 7b8b2143493e4239218cb53bd9576254
+x-creativeid: 653dd44c861e11e68f31002590f3db4c
+x-failurl: http://ads.mopub.com/m/ad?v=6&id=9e851241d2954ea88b7c0810b6ac6550&nv=4.9.0&dn=koobee%2CS100%2CS100&bundle=com.idroi.mysecurity&z=%2B0800&o=p&w=720&h=1280&sc_a=2.0&ct=2&av=1.0&udid=sha%3A3fa0b4c86e7c6866ceee566dc065100a2544771b&dnt=0&mr=1&android_perms_ext_storage=1&exclude=653dd154861e11e68f31002590f3db4c&request_id=82fc28cd502b4ddba8931d8ff02eb62f&fail=1
+x-height: 50
+x-imptracker: http://ads.mopub.com/m/imp?appid=&cid=653dd44c861e11e68f31002590f3db4c&city=Taipei&ckv=2&country_code=TW&cppck=603B7&dev=S100&exclude_adgroups=653dd154861e11e68f31002590f3db4c&id=9e851241d2954ea88b7c0810b6ac6550&is_mraid=0&os=Android&osv=4.4.4&req=82fc28cd502b4ddba8931d8ff02eb62f&reqt=1476856345.0&rev=0.000050&udid=sha%3A3fa0b4c86e7c6866ceee566dc065100a2544771b&video_type=
+x-nativeparams: {"adHeight":50,"adUnitID":"ca-app-pub-6704987105764608/2094500374","adWidth":320}
+x-networktype: admob_native
+x-refreshtime: 60
+x-response-time: 20
+x-width: 320
+x-xss-protection: 1; mode=block
+
+GET /m/ad?v=6&id=9e851241d2954ea88b7c0810b6ac6550&nv=4.9.0&dn=koobee%2CS100%2CS100&bundle=com.idroi.mysecurity&z=%2B0800&o=p&w=720&h=1280&sc_a=2.0&ct=2&av=1.0&udid=sha%3A3fa0b4c86e7c6866ceee566dc065100a2544771b&dnt=0&mr=1&android_perms_ext_storage=1&exclude=653dd154861e11e68f31002590f3db4c&request_id=82fc28cd502b4ddba8931d8ff02eb62f&fail=1 HTTP/1.1
+Accept-Language: zh
+User-Agent: Mozilla/5.0 (Linux; Android 4.4.4; S100 Build/KTU84P) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/33.0.0.0 Mobile Safari/537.36
+Host: ads.mopub.com
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+HTTP/1.1 200 OK
+content-encoding: gzip
+content-length: 1345
+content-type: text/html; charset=UTF-8
+date: Wed, 19 Oct 2016 05:52:30 GMT
+server: tsa_b
+x-adgroupid: 270d912a799b4c41818051ad2b047eba
+x-adtype: html
+x-clickthrough: http://ads.mopub.com/m/aclk?appid=&cid=97e7dceb167849eba23fa8246133a437&city=Taipei&ckv=2&country_code=TW&cppck=31042&dev=S100&exclude_adgroups=270d912a799b4c41818051ad2b047eba%2C653dd154861e11e68f31002590f3db4c&id=9e851241d2954ea88b7c0810b6ac6550&is_mraid=0&os=Android&osv=4.4.4&req=82fc28cd502b4ddba8931d8ff02eb62f&reqt=1476856350.0&rev=0&udid=sha%3A3fa0b4c86e7c6866ceee566dc065100a2544771b&video_type=
+x-connection-hash: 7b8b2143493e4239218cb53bd9576254
+x-creativeid: 97e7dceb167849eba23fa8246133a437
+x-failurl: http://ads.mopub.com/m/ad?v=6&id=9e851241d2954ea88b7c0810b6ac6550&nv=4.9.0&dn=koobee%2CS100%2CS100&bundle=com.idroi.mysecurity&z=%2B0800&o=p&w=720&h=1280&sc_a=2.0&ct=2&av=1.0&udid=sha%3A3fa0b4c86e7c6866ceee566dc065100a2544771b&dnt=0&mr=1&android_perms_ext_storage=1&request_id=82fc28cd502b4ddba8931d8ff02eb62f&fail=1&exclude=270d912a799b4c41818051ad2b047eba&exclude=653dd154861e11e68f31002590f3db4c&fail=1
+x-height: 50
+x-imptracker: http://ads.mopub.com/m/imp?appid=&cid=97e7dceb167849eba23fa8246133a437&city=Taipei&ckv=2&country_code=TW&cppck=2895A&dev=S100&exclude_adgroups=270d912a799b4c41818051ad2b047eba%2C653dd154861e11e68f31002590f3db4c&id=9e851241d2954ea88b7c0810b6ac6550&is_mraid=0&os=Android&osv=4.4.4&req=82fc28cd502b4ddba8931d8ff02eb62f&reqt=1476856350.0&rev=0.000010&udid=sha%3A3fa0b4c86e7c6866ceee566dc065100a2544771b&video_type=
+x-refreshtime: 60
+x-response-time: 28
+x-width: 320
+x-xss-protection: 1; mode=block
+
+?       ŒVmo?ş¾_?¨í ±-É–,?C–vØ€b? EQEl.”¨‰´¯íß‘ŠßR§©D"ïøÜsºãİ‘ÙÅ?o?şõ?M!¯Él? Ê¯	™]t»ä?jµªˆĞ$ù|„t4gC6?ñ£€?ó‡#?éví©%%- õÖ6•ªG???‚›eÊa-tİâŠˆRAeW3*!z?Yi¨İšf¸U*?k³•@Ì¶‚´màÁô™Öík??Cp¨ÉgR)`ªœ\< ?£ª	‰üWS"!7¯?¢ì6;?ö«r!
+Ë•–f/wg»aôDú•Ìú‹#ÅjQ™†•çXıC×´ÙEÖùªd?)TµÊ~EWõò¢¼sù™h0w? ?½^?Øˆ’«MO*FİÙ”´İñI¿Ÿ?Úä?ñÉ?gğúE>"'SSvÿ{QÕ 5?²Âo—¦¤\II¾|q‡U~^ï’\¤ÄÛÑ?İ½g8Ö?«Zjt¥„¹©kºí u?pÓŸ'ÿ$^¿ş;õ–ÆT?åº??Uô‹>ÆàgZU‚§-??qY’?30?	‡q0Ğá`„Jf›ŞQQh±ûu¶˜Z•¦ŞÎ™âŞ}h±ªb÷i˜Œ£›&e?ğı<0¹â0§Mîëô¥?ŞÆÑ€?&q A q?*ŒÆ~>àx¨eùB?àá8M’lÄü$ğ³˜²8Šü–Ğó¢¦¨é·”NoJ^+Áñu?{ø×ªá?	s&ŒG~?9Ïh2<És??s«dÒ`8Š“(D~ÏÇuŠO?~k?_/é«?~-?1ŒXœÄ1€(?óãÉÓ0G?k?5oR
+eƒ¶œCù¾?;¹b?o`Õ@¼•`W¶Fq£|Pî¹{ÓãBW’nmb—ª„öI"äª&·Nı©˜Ù´èI(f9ÅìØe?ß±ŒRk=]3Tl’ë?.˜JPòÛ¥¼ƒšî&YèLñí1??°şe{G`që´­Vûò“˜ö?í`Ä_??Èl}#ø­TlÅp·×]Î§ÒÃ%n? Ú®”œS??c?½ µµ…Æ¾µÕˆ_6v¬·³öX?ço×ø-??ÅÄjæ]–@)Ê{ır ¨4&?g0‘fÍá]ŞÇÄq›˜=,?ÆÔ"[D0XîÁ´¯ÚóLÒò¾İFFTjÀÅIøúM{œ¹,qéœzM¿˜øÓ
+????‘ÇßqçòvË»Ş?Ôçı’?¥éj?LHVÓ§¢œBn'd	rF0zEkì Wš–º‹­SäÇGöìöD?-?•bQNš†z,Ì°¶ÛzXòÉf)ìE_÷o?k˜Ûo?õ*9öêBU«B?gJªzB5@?kLÕ´éü¶¤?ßuíÃk??õ¾¡~B>€??TM#?E? ?'x3J?äûN·ÙlîD“[)?†ºv?hC(?ÆêÓëïÑ9Fû¨V„a?ÕÆ?';?2£EE1ğÖ&??h’Ø?øM	±£?!?•ò0?âaF??;{\œ×´·÷PSg*QSkT)øé?>;Â>3àX¸Óaoôµ?n¢ş  ÿÿ j?vj  
+
+GET /m/pos?id=30270ecca0ff4f5ea8079af907b49923&v=1&nsv=4.9.0&dn=koobee%2CS100%2CS100&av=1.0&udid=sha%3A3fa0b4c86e7c6866ceee566dc065100a2544771b&dnt=0 HTTP/1.1
+User-Agent: Mozilla/5.0 (Linux; Android 4.4.4; S100 Build/KTU84P) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/33.0.0.0 Mobile Safari/537.36
+Host: ads.mopub.com
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+HTTP/1.1 200 OK
+cache-control: no-cache
+content-encoding: gzip
+content-length: 88
+content-type: application/json; charset=UTF-8
+date: Wed, 19 Oct 2016 05:52:45 GMT
+server: tsa_b
+x-connection-hash: 7b8b2143493e4239218cb53bd9576254
+x-response-time: 10
+
+?       ªV*J-HM,ÉÌKW²R¨VÊÌ+I-*K?rLku”Ò2+RS€œèj¥‚üâÌ’Ìü< OÉP	(?d¢T[   ÿÿ Fş½O   

@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <boolean name="auto_collect_location" value="true" />
+    <int name="request_in_session_count" value="1" />
+    <long name="app_last_background_time_ms" value="1476860539203" />
+    <boolean name="use_https" value="false" />
+</map>

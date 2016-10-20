@@ -1,0 +1,5 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <string name="sdk_version">5.3.1</string>
+    <boolean name="db_deletion_failed" value="false" />
+</map>

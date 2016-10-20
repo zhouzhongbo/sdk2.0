@@ -122,7 +122,6 @@ interstitial
     这里设计了一个类似线程池类似的请求队列（RequesetQueue）,通过cacheDispatcher 和 networkdispatcher来
     管理队列中请求事件，通过responseDelivery来分发处理好的请求结果。
     实际在处理请求是Network 这个类实现（mNetwork.performRequest）；
-    再底层实现：HttpURLConnection
     
 10.UrlRewriter.rewriteUrl()
    用来替换请求url中 以下参数：

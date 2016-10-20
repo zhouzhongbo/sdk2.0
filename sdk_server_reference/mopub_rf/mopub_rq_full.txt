@@ -1,0 +1,470 @@
+GET http://ads.mopub.com/m/ad?v=6&id=9e851241d2954ea88b7c0810b6ac6550&nv=4.9.0&dn=koobee%2CH3%2CH3&bundle=com.idroi.mysecurity&z=%2B0800&o=p&w=720&h=1280&sc_a=2.0&ct=2&av=1.0&udid=sha%3A97832d463028fb0016632d11015ef80306f238b4&dnt=0&mr=1&android_perms_ext_storage=1 HTTP/1.1
+Accept-Language: zh
+User-Agent: Mozilla/5.0 (Linux; Android 4.4.4; H3 Build/KTU84P) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/33.0.0.0 Mobile Safari/537.36
+Host: ads.mopub.com
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+HTTP/1.1 200 OK
+content-encoding: gzip
+content-length: 41
+content-type: text/html; charset=UTF-8
+date: Wed, 19 Oct 2016 06:55:31 GMT
+server: tsa_b
+x-adgroupid: 653dd154861e11e68f31002590f3db4c
+x-adtype: admob_native
+x-clickthrough: http://ads.mopub.com/m/aclk?appid=&cid=653dd44c861e11e68f31002590f3db4c&city=Shanghai&ckv=2&country_code=CN&cppck=B467A&dev=H3&exclude_adgroups=653dd154861e11e68f31002590f3db4c&id=9e851241d2954ea88b7c0810b6ac6550&is_mraid=0&os=Android&osv=4.4.4&req=3350b0dfebd24d02bba8bf2a816be7ce&reqt=1476860131.0&rev=0&udid=sha%3A97832d463028fb0016632d11015ef80306f238b4&video_type=
+x-connection-hash: 899f1864a5ee6c511a02e853d6392d36
+x-creativeid: 653dd44c861e11e68f31002590f3db4c
+x-failurl: http://ads.mopub.com/m/ad?v=6&id=9e851241d2954ea88b7c0810b6ac6550&nv=4.9.0&dn=koobee%2CH3%2CH3&bundle=com.idroi.mysecurity&z=%2B0800&o=p&w=720&h=1280&sc_a=2.0&ct=2&av=1.0&udid=sha%3A97832d463028fb0016632d11015ef80306f238b4&dnt=0&mr=1&android_perms_ext_storage=1&exclude=653dd154861e11e68f31002590f3db4c&request_id=3350b0dfebd24d02bba8bf2a816be7ce&fail=1
+x-height: 50
+x-imptracker: http://ads.mopub.com/m/imp?appid=&cid=653dd44c861e11e68f31002590f3db4c&city=Shanghai&ckv=2&country_code=CN&cppck=9D09A&dev=H3&exclude_adgroups=653dd154861e11e68f31002590f3db4c&id=9e851241d2954ea88b7c0810b6ac6550&is_mraid=0&os=Android&osv=4.4.4&req=3350b0dfebd24d02bba8bf2a816be7ce&reqt=1476860131.0&rev=0.000050&udid=sha%3A97832d463028fb0016632d11015ef80306f238b4&video_type=
+x-nativeparams: {"adHeight":50,"adUnitID":"ca-app-pub-6704987105764608/2094500374","adWidth":320}
+x-networktype: admob_native
+x-refreshtime: 60
+x-response-time: 19
+x-width: 320
+x-xss-protection: 1; mode=block
+
+
+GET http://ads.mopub.com/m/imp?appid=&cid=653dd44c861e11e68f31002590f3db4c&city=Shanghai&ckv=2&country_code=CN&cppck=9D09A&dev=H3&exclude_adgroups=653dd154861e11e68f31002590f3db4c&id=9e851241d2954ea88b7c0810b6ac6550&is_mraid=0&os=Android&osv=4.4.4&req=3350b0dfebd24d02bba8bf2a816be7ce&reqt=1476860131.0&rev=0.000050&udid=sha%3A97832d463028fb0016632d11015ef80306f238b4&video_type= HTTP/1.1
+User-Agent: Mozilla/5.0 (Linux; Android 4.4.4; H3 Build/KTU84P) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/33.0.0.0 Mobile Safari/537.36
+Host: ads.mopub.com
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+HTTP/1.1 200 OK
+content-encoding: gzip
+content-length: 34
+content-type: text/html; charset=ISO-8859-1
+date: Wed, 19 Oct 2016 06:55:34 GMT
+server: tsa_b
+x-connection-hash: 899f1864a5ee6c511a02e853d6392d36
+x-response-time: 17
+x-xss-protection: 1; mode=block
+
+
+
+GET http://ads.mopub.com/m/ad?v=6&id=70b9e0b1cd5f4653858143af417bc438&nv=4.9.0&dn=koobee%2CH3%2CH3&bundle=com.idroi.mysecurity&z=%2B0800&o=p&w=720&h=1280&sc_a=2.0&ct=2&av=1.0&udid=sha%3A97832d463028fb0016632d11015ef80306f238b4&dnt=0&mr=1&android_perms_ext_storage=1 HTTP/1.1
+Accept-Language: zh
+User-Agent: Mozilla/5.0 (Linux; Android 4.4.4; H3 Build/KTU84P) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/33.0.0.0 Mobile Safari/537.36
+Host: ads.mopub.com
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+
+
+HTTP/1.1 200 OK
+content-encoding: gzip
+content-length: 43
+content-type: text/html; charset=UTF-8
+date: Wed, 19 Oct 2016 06:55:51 GMT
+server: tsa_b
+x-adgroupid: 3e7745e68d2b11e6bf31002590f31968
+x-adtype: interstitial
+x-clickthrough: http://ads.mopub.com/m/aclk?appid=&cid=3e7749428d2b11e6bf31002590f31968&city=Shanghai&ckv=2&country_code=CN&cppck=49249&dev=H3&exclude_adgroups=3e7745e68d2b11e6bf31002590f31968&id=70b9e0b1cd5f4653858143af417bc438&is_mraid=0&os=Android&osv=4.4.4&req=c4feea75154a44feacfb68144d261560&reqt=1476860151.0&rev=0&udid=sha%3A97832d463028fb0016632d11015ef80306f238b4&video_type=
+x-connection-hash: 899f1864a5ee6c511a02e853d6392d36
+x-creativeid: 3e7749428d2b11e6bf31002590f31968
+x-failurl: http://ads.mopub.com/m/ad?v=6&id=70b9e0b1cd5f4653858143af417bc438&nv=4.9.0&dn=koobee%2CH3%2CH3&bundle=com.idroi.mysecurity&z=%2B0800&o=p&w=720&h=1280&sc_a=2.0&ct=2&av=1.0&udid=sha%3A97832d463028fb0016632d11015ef80306f238b4&dnt=0&mr=1&android_perms_ext_storage=1&exclude=3e7745e68d2b11e6bf31002590f31968&request_id=c4feea75154a44feacfb68144d261560&fail=1
+x-fulladtype: admob_full
+x-imptracker: http://ads.mopub.com/m/imp?appid=&cid=3e7749428d2b11e6bf31002590f31968&city=Shanghai&ckv=2&country_code=CN&cppck=7541E&dev=H3&exclude_adgroups=3e7745e68d2b11e6bf31002590f31968&id=70b9e0b1cd5f4653858143af417bc438&is_mraid=0&os=Android&osv=4.4.4&req=c4feea75154a44feacfb68144d261560&reqt=1476860151.0&rev=0.000050&udid=sha%3A97832d463028fb0016632d11015ef80306f238b4&video_type=
+x-nativeparams: {"adHeight":480,"adUnitID":"ca-app-pub-6704987105764608/3571233576","adWidth":320}
+x-networktype: admob_native
+x-orientation: p
+x-response-time: 17
+x-scrollable: 0
+x-xss-protection: 1; mode=block
+------------------------------------------------------------------
+
+
+GET http://ads.mopub.com/m/ad?v=6&id=70b9e0b1cd5f4653858143af417bc438&nv=4.9.0&dn=koobee%2CH3%2CH3&bundle=com.idroi.mysecurity&z=%2B0800&o=p&w=720&h=1280&sc_a=2.0&ct=2&av=1.0&udid=sha%3A97832d463028fb0016632d11015ef80306f238b4&dnt=0&mr=1&android_perms_ext_storage=1 HTTP/1.1
+Accept-Language: zh
+User-Agent: Mozilla/5.0 (Linux; Android 4.4.4; H3 Build/KTU84P) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/33.0.0.0 Mobile Safari/537.36
+Host: ads.mopub.com
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+HTTP/1.1 200 OK
+content-encoding: gzip
+content-length: 43
+content-type: text/html; charset=UTF-8
+date: Wed, 19 Oct 2016 06:55:56 GMT
+server: tsa_b
+x-adgroupid: 3e7745e68d2b11e6bf31002590f31968
+x-adtype: interstitial
+x-clickthrough: http://ads.mopub.com/m/aclk?appid=&cid=3e7749428d2b11e6bf31002590f31968&city=Shanghai&ckv=2&country_code=CN&cppck=BFABF&dev=H3&exclude_adgroups=3e7745e68d2b11e6bf31002590f31968&id=70b9e0b1cd5f4653858143af417bc438&is_mraid=0&os=Android&osv=4.4.4&req=4ead28f9b58c4c998ec5b2f12204a3e3&reqt=1476860156.0&rev=0&udid=sha%3A97832d463028fb0016632d11015ef80306f238b4&video_type=
+x-connection-hash: 899f1864a5ee6c511a02e853d6392d36
+x-creativeid: 3e7749428d2b11e6bf31002590f31968
+x-failurl: http://ads.mopub.com/m/ad?v=6&id=70b9e0b1cd5f4653858143af417bc438&nv=4.9.0&dn=koobee%2CH3%2CH3&bundle=com.idroi.mysecurity&z=%2B0800&o=p&w=720&h=1280&sc_a=2.0&ct=2&av=1.0&udid=sha%3A97832d463028fb0016632d11015ef80306f238b4&dnt=0&mr=1&android_perms_ext_storage=1&exclude=3e7745e68d2b11e6bf31002590f31968&request_id=4ead28f9b58c4c998ec5b2f12204a3e3&fail=1
+x-fulladtype: admob_full
+x-imptracker: http://ads.mopub.com/m/imp?appid=&cid=3e7749428d2b11e6bf31002590f31968&city=Shanghai&ckv=2&country_code=CN&cppck=28629&dev=H3&exclude_adgroups=3e7745e68d2b11e6bf31002590f31968&id=70b9e0b1cd5f4653858143af417bc438&is_mraid=0&os=Android&osv=4.4.4&req=4ead28f9b58c4c998ec5b2f12204a3e3&reqt=1476860156.0&rev=0.000050&udid=sha%3A97832d463028fb0016632d11015ef80306f238b4&video_type=
+x-nativeparams: {"adHeight":480,"adUnitID":"ca-app-pub-6704987105764608/3571233576","adWidth":320}
+x-networktype: admob_native
+x-orientation: p
+x-response-time: 24
+x-scrollable: 0
+x-xss-protection: 1; mode=block
+
+
+
+------------------------------------------------------------------
+
+GET http://ads.mopub.com/m/imp?appid=&cid=3e7749428d2b11e6bf31002590f31968&city=Shanghai&ckv=2&country_code=CN&cppck=28629&dev=H3&exclude_adgroups=3e7745e68d2b11e6bf31002590f31968&id=70b9e0b1cd5f4653858143af417bc438&is_mraid=0&os=Android&osv=4.4.4&req=4ead28f9b58c4c998ec5b2f12204a3e3&reqt=1476860156.0&rev=0.000050&udid=sha%3A97832d463028fb0016632d11015ef80306f238b4&video_type= HTTP/1.1
+User-Agent: Mozilla/5.0 (Linux; Android 4.4.4; H3 Build/KTU84P) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/33.0.0.0 Mobile Safari/537.36
+Host: ads.mopub.com
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+HTTP/1.1 200 OK
+content-encoding: gzip
+content-length: 34
+content-type: text/html; charset=ISO-8859-1
+date: Wed, 19 Oct 2016 06:56:03 GMT
+server: tsa_b
+x-connection-hash: 899f1864a5ee6c511a02e853d6392d36
+x-response-time: 13
+x-xss-protection: 1; mode=block
+
+------------------------------------------------------------------
+
+
+GET http://ads.mopub.com/m/ad?id=30270ecca0ff4f5ea8079af907b49923&nsv=4.9.0&dn=koobee%2CH3%2CH3&bundle=com.idroi.mysecurity&z=%2B0800&o=p&w=720&h=1280&sc_a=2.0&ct=2&av=1.0&udid=sha%3A97832d463028fb0016632d11015ef80306f238b4&dnt=0&MAGIC_NO=0 HTTP/1.1
+Accept-Language: zh
+User-Agent: Mozilla/5.0 (Linux; Android 4.4.4; H3 Build/KTU84P) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/33.0.0.0 Mobile Safari/537.36
+Host: ads.mopub.com
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+
+HTTP/1.1 200 OK
+content-encoding: gzip
+content-length: 43
+content-type: text/html; charset=UTF-8
+date: Wed, 19 Oct 2016 06:56:06 GMT
+server: tsa_b
+x-adgroupid: 9257969a861711e6a599002590f2bb78
+x-adtype: custom
+x-clickthrough: http://ads.mopub.com/m/aclk?appid=&cid=92579bc2861711e6a599002590f2bb78&city=Shanghai&ckv=2&country_code=CN&cppck=21C63&dev=H3&exclude_adgroups=9257969a861711e6a599002590f2bb78&id=30270ecca0ff4f5ea8079af907b49923&is_mraid=0&os=Android&osv=4.4.4&req=a52a882d18064a06961374dfee3245ea&reqt=1476860166.0&rev=0&udid=sha%3A97832d463028fb0016632d11015ef80306f238b4&video_type=
+x-connection-hash: 899f1864a5ee6c511a02e853d6392d36
+x-creativeid: 92579bc2861711e6a599002590f2bb78
+x-custom-event-class-data: {"accountid":"df70fe7e97474f4d9f96d166b1b3434f","placementid":"1477676934812"}
+x-custom-event-class-name: com.mopub.nativeads.InMobiNativeCustomEvent
+x-failurl: http://ads.mopub.com/m/ad?id=30270ecca0ff4f5ea8079af907b49923&nsv=4.9.0&dn=koobee%2CH3%2CH3&bundle=com.idroi.mysecurity&z=%2B0800&o=p&w=720&h=1280&sc_a=2.0&ct=2&av=1.0&udid=sha%3A97832d463028fb0016632d11015ef80306f238b4&dnt=0&MAGIC_NO=0&exclude=9257969a861711e6a599002590f2bb78&request_id=a52a882d18064a06961374dfee3245ea&fail=1
+x-imptracker: http://ads.mopub.com/m/imp?appid=&cid=92579bc2861711e6a599002590f2bb78&city=Shanghai&ckv=2&country_code=CN&cppck=1AD3D&dev=H3&exclude_adgroups=9257969a861711e6a599002590f2bb78&id=30270ecca0ff4f5ea8079af907b49923&is_mraid=0&os=Android&osv=4.4.4&req=a52a882d18064a06961374dfee3245ea&reqt=1476860166.0&rev=0.000050&udid=sha%3A97832d463028fb0016632d11015ef80306f238b4&video_type=
+x-networktype: custom_native
+x-refreshtime: 30
+x-response-time: 16
+x-xss-protection: 1; mode=block
+
+?       J.-.ÉÏU(NÍIM.?²R    ÿÿ @*L   
+
+------------------------------------------------------------------
+
+
+CONNECT i.l.inmobicdn.net:443 HTTP/1.1
+Host: i.l.inmobicdn.net
+User-Agent: Mozilla/5.0 (Linux; Android 4.4.4; H3 Build/KTU84P) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/33.0.0.0 Mobile Safari/537.36
+Connection: Keep-Alive
+
+A SSLv3-compatible ClientHello handshake was found. Fiddler extracted the parameters below.
+
+Version: 3.1 (TLS/1.0)
+Random: 58 07 19 52 63 19 32 38 E1 CE 41 62 A1 C7 94 CD 64 5D E7 7F EC 0B 69 9B 6A 05 AB 80 D2 20 13 9C
+"Time": 2013/8/25 3:19:52
+SessionID: empty
+Extensions: 
+	server_name	i.l.inmobicdn.net
+	ec_point_formats	uncompressed [0x0], ansiX962_compressed_prime [0x1], ansiX962_compressed_char2  [0x2]
+	elliptic_curves	sect571r1 [0xE], sect571k1 [0xD], secp521r1 [0x19], sect409k1 [0xB], sect409r1 [0xC], secp384r1 [0x18], sect283k1 [0x9], sect283r1 [0xA], secp256k1 [0x16], secp256r1 [0x17], sect239k1 [0x8], sect233k1 [0x6], sect233r1 [0x7], secp224k1 [0x14], secp224r1 [0x15], sect193r1 [0x4], sect193r2 [0x5], secp192k1 [0x12], secp192r1 [0x13], sect163k1 [0x1], sect163r1 [0x2], sect163r2 [0x3], secp160k1 [0xF], secp160r1 [0x10], secp160r2 [0x11]
+	SessionTicket	empty
+Ciphers: 
+	[0004]	SSL_RSA_WITH_RC4_128_MD5
+	[0005]	SSL_RSA_WITH_RC4_128_SHA
+	[002F]	TLS_RSA_AES_128_SHA
+	[0035]	TLS_RSA_AES_256_SHA
+	[C002]	TLS_ECDH_ECDSA_WITH_RC4_128_SHA
+	[C004]	TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA
+	[C005]	TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA
+	[C00C]	TLS_ECDH_RSA_WITH_RC4_128_SHA
+	[C00E]	TLS_ECDH_RSA_WITH_AES_128_CBC_SHA
+	[C00F]	TLS_ECDH_RSA_WITH_AES_256_CBC_SHA
+	[C007]	TLS_ECDHE_ECDSA_WITH_RC4_128_SHA
+	[C009]	TLS1_CK_ECDHE_ECDSA_WITH_AES_128_CBC_SHA
+	[C00A]	TLS1_CK_ECDHE_ECDSA_WITH_AES_256_CBC_SHA
+	[C011]	TLS_ECDHE_RSA_WITH_RC4_128_SHA
+	[C013]	TLS1_CK_ECDHE_RSA_WITH_AES_128_CBC_SHA
+	[C014]	TLS1_CK_ECDHE_RSA_WITH_AES_256_CBC_SHA
+	[0033]	TLS_DHE_RSA_WITH_AES_128_SHA
+	[0039]	TLS_DHE_RSA_WITH_AES_256_SHA
+	[0032]	TLS_DHE_DSS_WITH_AES_128_SHA
+	[0038]	TLS_DHE_DSS_WITH_AES_256_SHA
+	[000A]	SSL_RSA_WITH_3DES_EDE_SHA
+	[C003]	TLS_ECDH_ECDSA_WITH_3DES_EDE_CBC_SHA
+	[C00D]	TLS_ECDH_RSA_WITH_3DES_EDE_CBC_SHA
+	[C008]	TLS_ECDHE_ECDSA_WITH_3DES_EDE_CBC_SHA
+	[C012]	TLS_ECDHE_RSA_WITH_3DES_EDE_CBC_SHA
+	[0016]	SSL_DHE_RSA_WITH_3DES_EDE_SHA
+	[0013]	SSL_DHE_DSS_WITH_3DES_EDE_SHA
+	[0009]	SSL_RSA_WITH_DES_SHA
+	[0015]	SSL_DHE_RSA_WITH_DES_SHA
+	[0012]	SSL_DHE_DSS_WITH_DES_SHA
+	[0003]	SSL_RSA_EXPORT_WITH_RC4_40_MD5
+	[0008]	SSL_RSA_EXPORT_WITH_DES40_SHA
+	[0014]	SSL_DHE_RSA_EXPORT_WITH_DES40_SHA
+	[0011]	SSL_DHE_DSS_EXPORT_WITH_DES40_SHA
+	[00FF]	TLS_EMPTY_RENEGOTIATION_INFO_SCSV
+
+Compression: 
+	[00]	NO_COMPRESSION
+
+
+
+HTTP/1.1 200 Connection Established
+FiddlerGateway: Direct
+StartTime: 14:56:07.057
+Connection: close
+
+This is a CONNECT tunnel, through which encrypted HTTPS traffic flows.
+To view the encrypted sessions inside this tunnel, enable the Tools > Fiddler Options > HTTPS > Decrypt HTTPS traffic option.
+
+A SSLv3-compatible ServerHello handshake was found. Fiddler extracted the parameters below.
+
+Version: 3.1 (TLS/1.0)
+SessionID:	empty
+Random:		58 07 19 06 DF 78 2A 98 1E 3D F3 66 63 02 BE 79 9B DF AB A6 63 C1 A2 7F 4A E5 26 E1 47 0C D2 14
+Cipher:		TLS_RSA_AES_128_SHA [0x002F]
+CompressionSuite:	NO_COMPRESSION [0x00]
+Extensions:
+		server_name	empty
+		renegotiation_info	00
+		SessionTicket	empty
+
+
+
+------------------------------------------------------------------
+
+
+POST http://i.w.inmobi.com/showad.asm HTTP/1.1
+User-Agent: Mozilla/5.0 (Linux; Android 4.4.4; H3 Build/KTU84P) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/33.0.0.0 Mobile Safari/537.36
+Content-Length: 1157
+Content-Type: application/x-www-form-urlencoded
+Host: i.w.inmobi.com
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+
+sn=1&sm=QAAAAAAAAACKZEC_Rf3mxjGL-bjrVFio_Npjv8ItLap-v_rzvKuXKwp6JU2g--leJeXHoaZD7cKU%0AMqrub_zPeupE-ECXCOgp0AIAAAAAAADasKK94hPXm5s3XdM1ERQ-dckGpL8Eoeq2UWotmIQ6wQcr%0AKvc1UmYPwyBrctFiCoPpX_8qMdwjZif2PQiz2EsCBMpLTljPPHNp4ucY1cuKAz_W0lD721DSrwx3%0A2ZU4vy3_6JBaCN-06DvZYbl8RipK-aNFLE9GXQHWy31zaHezf4qlqJrAcSfnHsV1CG27euMdtYJ8%0AFMTmQQf-teR5Z4rU9PTu7zaI2S0cIiM0uaxsks40FwAtmk4AyAA32Kws9qZvT8XO8F3bK985gVRW%0Acmv-EpRfeXj2JDGWjwPiJI6TsBrOyrHPbkpnZfX8eJvSzwZYkcqINT1LWsJI8Z4n9LPB6WL7ncHV%0ACRafv3FnY9sLTA-ZXiBh_ShLrNY_F-W28lajdsavjGgsWiJGTDS5zupvX0kmxvjhZjROduw3VzvQ%0AJmQ6Y-d4PXH0j7VJNbUcqmFgbIpnqIsRmKberaLyMOdBxTSGhf7CJPrg__FoDKDUuYAbA4bDhO4i%0AAlMVg_9h9JB0y7StQ6_OQUxbPQ9u_HsR73eomyHrqP4l3JkOVE1DRjLDM-R-Ky5aSr7ycF8RKpIJ%0ADEz-RY8cLDk9Hg_nNosKISSP_Wjyn6CL-hy46ozWGasetT_MkVFRLyYMauvQatB-1hWW75n6NYnd%0Anr_58_xVAYvGFzR8DMzlvgV4RrUlSYZ-Oii2W5IbD79_ReBP_0pg6dktCvGO54P3dAkYw2tfZaDw%0ANXY5CMDv3OxQyE-A5Zn1KwfiQFcLpUPtmdHwsXPvUqEfxPcNcY4gykwTtY7sfm9jjdjECnr037Op%0A35l95g9tRChHVQ5wSNOIzjeptz3i4znE81UKw394LuZEXuvt-urrtuHTBr4OGWK-Q5zQbVjVaSh5%0AlFyb3o1FIFZJTbLyXw0O8Oriwwdf9mspyCt7PCyVcgO1_OKZ0H64LQtoh8RBkPKpfvlI8feJeKCq%0ASwsUAAAAAAAAAH38V-TIbhd_HDQULS1NxLQG7Omq%0A
+HTTP/1.1 200 OK
+Server: nginx
+Date: Wed, 19 Oct 2016 06:56:06 GMT
+Content-Type: application/octet-stream
+Content-Length: 128
+Connection: keep-alive
+Cache-Control: no-cache, no-store, must-revalidate
+Expires: -1
+Pragma: no-cache
+
+pmmxH/Ry+Hb3GjnldGphhcJDaZBHklMkA9q6ZWZxelXkEWIRCU44hr8ptagHur/avQmtd2viqgPh7cu7CBiytfrfdMjphhyaKnEhzE1kUeSR2RkaOTu5ISNas+N39/76
+
+------------------------------------------------------------------
+
+
+GET http://ads.mopub.com/m/ad?id=30270ecca0ff4f5ea8079af907b49923&nsv=4.9.0&dn=koobee%2CH3%2CH3&bundle=com.idroi.mysecurity&z=%2B0800&o=p&w=720&h=1280&sc_a=2.0&ct=2&av=1.0&udid=sha%3A97832d463028fb0016632d11015ef80306f238b4&dnt=0&MAGIC_NO=0&exclude=9257969a861711e6a599002590f2bb78&request_id=a52a882d18064a06961374dfee3245ea&fail=1 HTTP/1.1
+Accept-Language: zh
+User-Agent: Mozilla/5.0 (Linux; Android 4.4.4; H3 Build/KTU84P) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/33.0.0.0 Mobile Safari/537.36
+Host: ads.mopub.com
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+
+
+HTTP/1.1 200 OK
+content-length: 0
+content-type: text/html; charset=ISO-8859-1
+date: Wed, 19 Oct 2016 06:56:07 GMT
+server: tsa_b
+x-adtype: clear
+x-backfill: clear
+x-connection-hash: 899f1864a5ee6c511a02e853d6392d36
+x-refreshtime: 30
+x-response-time: 18
+x-xss-protection: 1; mode=block
+
+------------------------------------------------------------------
+
+POST http://config.inmobi.com/config-server/v1/config/secure.cfg HTTP/1.1
+User-Agent: Mozilla/5.0 (Linux; Android 4.4.4; H3 Build/KTU84P) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/33.0.0.0 Mobile Safari/537.36
+Content-Length: 920
+Content-Type: application/x-www-form-urlencoded
+Host: config.inmobi.com
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+
+sn=1&sm=QAAAAAAAAADm3juAuUU_5bRbIELIjdxFgOqnB9j36m4Cxv8o41YajvioxwO2ELcYwmYPyTEWyhps%0A9rBcfpF5MjIPiXWiAD4qIAIAAAAAAAAB4M_l5ij8JeMqfEd-t1g5aTQEPHlur-Kj8PDxl76ipfuh%0A3rlW-tufNNOZmSCeta-72uTIREGL9n5HhmyB1xiQQnOGbCSLYtqecRqvbU9Bp6xUJYDAA8_qVWOC%0AeS4tVD6PttYxv1ZONkd8uFi2NSdsFWB7-xMZGLqpxO-48E3bsuNVaA45NstJ9Zl7V_Bfxg3m-axE%0AtFgrPEhjZ69leGOdRxRHCMdy0UXdf45U-xJ5ABumO418NMbcQlHU6bQS30mhvW-GkwFSTc4mZ4wY%0A2aIh6SJ9r42mX-PKiJyR5rl8iWP62icRhI_tpUGdiSsosJqJKJWQavnlc6hzSDp6Ap65QnAPE4Ee%0AR8Px3gIOTgHgv0EmQJ-FGJUA9nVzi3G6804B_0xFsx-l7aBf4ejBgwmf16d0oqqya-XbV9WNIiuB%0Avw1YfZaJsVcjIiVFnnZwh_xytmUAN6E43sQ_Z4_vFoAKEeh7_wSZx2hgLTmcx2Xs6HBMLEstS8fx%0AGZmp-HeMgIY3Z1sCTDYCvKlGTYqhH_oZslG8OTw3bY7WGtOjQgNrN3MK7xPORHHLLwEIYPJ2tcsG%0AwQUtBbp7IH5adpJAo_hRqMTxAI7r3d6Z34DDMdH3sh0kCrcLMFfbvcbMfdYeJXZ2GtZD64KR67qX%0A3k1OAg-F80afCDAnuRYGgPrAvNRvPr1PjCTzsaOV-ncwX3sleWsWHe8t3P4r2k6cC2oUjgHuFAAA%0AAAAAAACfZiz62gciX8uB9UiOYUqLjV8-lg%3D%3D%0A
+HTTP/1.1 200 OK
+Content-Type: application/octet-stream
+Vary: Accept-Encoding
+Content-Encoding: gzip
+Content-Length: 1414
+Connection: keep-alive
+
+POST http://i.w.inmobi.com/showad.asm HTTP/1.1
+User-Agent: Mozilla/5.0 (Linux; Android 4.4.4; H3 Build/KTU84P) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/33.0.0.0 Mobile Safari/537.36
+Content-Length: 1157
+Content-Type: application/x-www-form-urlencoded
+Host: i.w.inmobi.com
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+
+sn=1&sm=QAAAAAAAAAAEA5-Ny0sOmbhSeFgzlHBesYuxK8rOcC6nxYD-5TWuvi9hCZBkr7XS-Ghxl2w4xqWQ%0ACk2TetdDZ2jpWia5EXKm0AIAAAAAAABML1EfejjZUIHuPZ1yZeYTb4zQ75aVv9TvtXlghDcfTYQU%0AA1uJqa-X4L7nA0M2LzKC7ukeaBGMY58ZiJbVp4fYvUtBTONjZVAHLy8roWaHOjZad9A-9Q9yRneB%0AT9_FcF5LTDH3N2Qi7nJfz9DdkrpBd01eertQR4hEiqh09mHdjy4eUBsz0b0F8TChzFtFgfZf6Hz4%0AElK7ZAdA6F6sf9r0BKtEWmPZLuQyYE0torWv47Eir8GnVhlaUQv-aRcM7mhrHt22TQmdwKvGriWk%0AOcABcN6M87Sl7SbvVqEt9xmzSnnjHyN_dz0NC3jcMeI1pkJ_6pMIPG3JMuiFCQzMQ4joX1uP4SxK%0AkUt3BBsKWqr0SQbUs4qZrtsO5sRnhrmH7JwsvxB1LxyCnqIM8XQIHJvA9gHXN7N1lMIZW1iV1L5x%0AIdHdWIRifqg-qJDQUiA-CmbOYGsHZ0uUu1hQKpXOOwHACpmGIQaAXYHusN-iB5HHTUG7BL6S75D3%0AaE_gYS8QuZ_MDNgoZ8fgLy0kb8RLnpuxOf8QpAiOGIWGj-yemsstVlPYbAE--gmPFMoTGVnt6mGu%0AOrsYzegnitdSo6A1Ez4lnjOQqaFwoAq2Vt-Nzt2IGUy6WqlWYoTL4rta1Nnp5wAqve7dFSVhqfUA%0A4D451La1_b0JGJydWg0YENpljy1B339Q07apw3BDZMkbBHLo6op2yDkk1OA5EchgG0isJSp_dono%0AzypT9mWY59DJY-5U8vqit40wvDRhld1Gv1PqFJgw4sayUhcgZPkF_H1ofHOESxaytTzQt6WNoucW%0A_c-dVevG6dB-QHA-5IsLNqCEz_uzqeivEVI6TUiQgyQ-p2oH6Wc5g9y1ua2oKXwtDd3fTWCRQAiG%0AyfTE6ljdNIOq6qXkhl8wpBr9SgwDgUIEqcAuKA2tzXSg2cNB3_8r8dMBIppU4LIiVglGNVgS2xqn%0Ah8MUAAAAAAAAAFSBnH-GsdTXwO4Ng3E1Do4C2z5v%0A
+HTTP/1.1 200 OK
+Server: nginx
+Date: Wed, 19 Oct 2016 06:56:11 GMT
+Content-Type: application/octet-stream
+Content-Length: 128
+Connection: keep-alive
+Cache-Control: no-cache, no-store, must-revalidate
+Expires: -1
+Pragma: no-cache
+
+jrHM1FsbRH5ByYNBtGqENxoZY/uc/puR/5IG/rm7op6p8jennZojOSjWcghsDo0Qff/JS+4Jl3Qhh6NM1N+1tTw5uLgdZEh8SKxgJuYVwekqxg0w8/uhVpF559mo86pp
+
+------------------------------------------------------------------
+
+
+GET http://ads.mopub.com/m/ad?id=30270ecca0ff4f5ea8079af907b49923&nsv=4.9.0&dn=koobee%2CH3%2CH3&bundle=com.idroi.mysecurity&z=%2B0800&o=p&w=720&h=1280&sc_a=2.0&ct=2&av=1.0&udid=sha%3A97832d463028fb0016632d11015ef80306f238b4&dnt=0&MAGIC_NO=0&exclude=9257969a861711e6a599002590f2bb78&request_id=0204a56880c447239d67c3990129f197&fail=1 HTTP/1.1
+Accept-Language: zh
+User-Agent: Mozilla/5.0 (Linux; Android 4.4.4; H3 Build/KTU84P) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/33.0.0.0 Mobile Safari/537.36
+Host: ads.mopub.com
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+
+
+HTTP/1.1 200 OK
+content-length: 0
+content-type: text/html; charset=ISO-8859-1
+date: Wed, 19 Oct 2016 06:56:11 GMT
+server: tsa_b
+x-adtype: clear
+x-backfill: clear
+x-connection-hash: 899f1864a5ee6c511a02e853d6392d36
+x-refreshtime: 30
+x-response-time: 16
+x-xss-protection: 1; mode=block
+
+
+------------------------------------------------------------------
+
+POST http://i.w.inmobi.com/showad.asm HTTP/1.1
+User-Agent: Mozilla/5.0 (Linux; Android 4.4.4; H3 Build/KTU84P) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/33.0.0.0 Mobile Safari/537.36
+Content-Length: 1157
+Content-Type: application/x-www-form-urlencoded
+Host: i.w.inmobi.com
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+sn=1&sm=QAAAAAAAAAAIyZx6zkoRFD3RIogGBUS49mE6FfOiTihcNfE4j8mdV61JfoPoFokaF1uA0aQFItnC%0Ai2WoBdc0_jfvFzXbUbMr0AIAAAAAAAC_9gqxnSTisqdKwW4CNtVB-jFh4kX6xLpWz6AuY_fsNE3g%0AryPlQXJqA3Rl5YjUgAq_Lv5OgEOT4-cEcpAO9zZj3mEhY28XZv6w1WmAkCcYzf15eR98KJJz2ehX%0A6OlxEvEj-FwOE-iKbvJg0z4mCEdHxUKfmvVVrGiuwz31ImspUnUri3Xqt9wSmdYJWlBuK4Oii10o%0AxNthtfX7zU5ZJHQgoW8LJ_OM-Yn935JDUSW8FL2EME_ij4hkw4GP2F122o4ypmU6uzqd1xRsdoQi%0Ai0lhUlOOQPd7zg0vGKslVk8_6132-1oMBXHNPDgWOubOlrXj6udhceMl4oAGFQbPQ-pAvy3kf-BU%0AktFq6JceaB6_ZQ5yqr7b0HUsTJQk4b93FTRjq5qIZjMYddKZk4I97nbNuybC-deadFTCkVQnDPM_%0AkDnkQ1TntWBaYGe18cG6y6bJsk7j0-I8DpcrPae7oq-fghF5DglGV7_WjwIEUS7-ume1WVkAg_cz%0AkYqpHZX_TwNI4-sbnO28FMWPp553sY3ltNISOcGXkcdaJz_bZgaSP_9u_XIQqqTDMxFq0vbyHXaY%0AS2-xUq3JLoNqYiR0jFCgc-aiC6ObdDTcGaY1T7B2Q54QZDZjbNpG00jdgdgGl9gk_Q6ydFMtML3s%0ASMbzG7zeJp_h0Urs3LG45KKxxW2ErzPXG7Evp7FtJsk4M9dFjL3j5Bqzf8R813_XX0gj_fuqfQSc%0AT9m18yA7Re_A9-QpDhmihBGPtehKQ4eG_uSK2eoJPzWhyi5WkqsUqkQNKudYni_X8K9eCHGTrWkm%0AZcVIkSi8vPRiW2EbbnpWbpgkJgbaaTDyY6mL2sMKuO6P7-fSNbIt8ZyA6Jj2po72TP7wEid8sbxN%0A8NsQKSSbiJ0Dr-usd-3W1KektwRgEHdy-vfNFOu7GdtjRls01XBafSIPyhamKJQdYJBCJ6zZrEdz%0ANUUUAAAAAAAAADttsiFaU_Gsc0WbUbnHfxXyPAQL%0A
+HTTP/1.1 200 OK
+Server: nginx
+Date: Wed, 19 Oct 2016 06:56:17 GMT
+Content-Type: application/octet-stream
+Content-Length: 128
+Connection: keep-alive
+Cache-Control: no-cache, no-store, must-revalidate
+Expires: -1
+Pragma: no-cache
+
+jAlrUvcc3hyScmWpd/HRuLx36EnVduqj5Fet3F3ZDgglkwhJko+Z1Pyhod4uWWRYv8YBgd0peWy7BbX445ah4nYOYnlpVGdnP0SPmAxFJaiOE6XtrQ68FrD85uUCRFHz
+
+------------------------------------------------------------------
+
+
+GET http://ads.mopub.com/m/ad?id=30270ecca0ff4f5ea8079af907b49923&nsv=4.9.0&dn=koobee%2CH3%2CH3&bundle=com.idroi.mysecurity&z=%2B0800&o=p&w=720&h=1280&sc_a=2.0&ct=2&av=1.0&udid=sha%3A97832d463028fb0016632d11015ef80306f238b4&dnt=0&MAGIC_NO=0&exclude=9257969a861711e6a599002590f2bb78&request_id=e805f90b33b7483b8e4847a5c5958111&fail=1 HTTP/1.1
+Accept-Language: zh
+User-Agent: Mozilla/5.0 (Linux; Android 4.4.4; H3 Build/KTU84P) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/33.0.0.0 Mobile Safari/537.36
+Host: ads.mopub.com
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+
+HTTP/1.1 200 OK
+content-length: 0
+content-type: text/html; charset=ISO-8859-1
+date: Wed, 19 Oct 2016 06:56:17 GMT
+server: tsa_b
+x-adtype: clear
+x-backfill: clear
+x-connection-hash: 899f1864a5ee6c511a02e853d6392d36
+x-refreshtime: 30
+x-response-time: 22
+x-xss-protection: 1; mode=block
+
+
+------------------------------------------------------------------
+
+POST http://config.inmobi.com/config-server/v1/config/secure.cfg HTTP/1.1
+User-Agent: Mozilla/5.0 (Linux; Android 4.4.4; H3 Build/KTU84P) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/33.0.0.0 Mobile Safari/537.36
+Content-Length: 987
+Content-Type: application/x-www-form-urlencoded
+Host: config.inmobi.com
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+sn=1&sm=QAAAAAAAAADhQMS3HKCJzPgR_n8upWRrcntBzq1_rAYe2mqo69RJUhKdd1dTjbdfYS2QVmROzso1%0AnsQWB1qdIrOeEruZRoitUAIAAAAAAACoYBGStwb1ZBSYl5cr6MA0UOgbG-lDptXdLz6yBino1Hb0%0AF5Onq5TzV-vlq8N_F47T6nVRTv8X8uimVR9L2NUsOOmYIGkI6ndL5cUG7xbB3BdQMrqnGhSacQOt%0AFAtEBaBv-LA0izPuDLd-HXCw9aDmk9g0X83Pc3wzWPOpO9IWHI2ZVSDD6JzejQHJfedDaI7AozrN%0A6d6s9YOBOp-LmWyvTc25x3pYqEUMgo0MAykequHqgJzG7lUc9H4HJqAGJDX9xfZlucTmzX0KTa9k%0A219WNeRc2zZx9114QeuPfcm5DUWpejDJ6uO2nKrlJZ2RNgDV5PGFK74iSay1-b0hHvY4wF_6E1Fd%0AFKONBRc3imqdWvDXkT9MqDM6QsSa71LNGcDCU0GLGi7tFhCm747lemgmIeNlyJRvhDQ-uU-JUv_L%0A5lHaA0YshsJ_dcD1Y5nakkEJmIfGWFKHwpnVWPyTw4Q8gnk9i8JUWZvNBkoKXeAvDVMentcwfTo6%0Ab4jLkiCwtEvMgjzsQm41MtYl0wZDk6SImZdXy4plE8u66DPqRQX8NLcMA9OLAlKE8zI_kdA3UmEP%0AttYEzw2tT0HK7Hd3ZKdNAC8DXgwkqRbdOW2ooX4N755UmVyDe7ASCRzXJFLsbKmwygVp3ke0jru1%0ASJYZd_uoG4Bns12H5kA6K5PYbfZT74qNYMyrUwHdOAai3Y108OwTWieoVXCx8ckFBzX2P_UP2A76%0A1lqBOL8EeGiZ2RDJjjKgBeQeV8rVEGbKLjaurxNMzSTzUGhuHpLvLu_qzajzFAAAAAAAAABTFkSC%0ARyny2wwFO13nLfus7INIxw%3D%3D%0A
+HTTP/1.1 200 OK
+Content-Type: application/octet-stream
+Vary: Accept-Encoding
+Content-Encoding: gzip
+Content-Length: 3164
+Connection: keep-alive
+
+POST http://i.w.inmobi.com/showad.asm HTTP/1.1
+User-Agent: Mozilla/5.0 (Linux; Android 4.4.4; H3 Build/KTU84P) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/33.0.0.0 Mobile Safari/537.36
+Content-Length: 1157
+Content-Type: application/x-www-form-urlencoded
+Host: i.w.inmobi.com
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+
+sn=1&sm=QAAAAAAAAABbq-eLL2Lh0xbxCsrBtDm_0ZEy3ABGhUHgC1uc1MeKrpZKr9vItzmz6Q70OgEBcd9Y%0Az5bMtnXdX40KoD74b81T0AIAAAAAAAAvmCamBWTxZi8nkwiYU2NavlGED8UveCEgB-2et08RokAF%0AepGzYK4uhBkB9YbFaQfVXkZsfCmy1sWrFKLgnaCMN8d5wUvpY1cifiSMuzXl-72vLFq0y0Txkn3S%0AUuSAy5GwsqLm7OyGeoHr-JlfhOHd0jVdCqc-cvWal85ssrREJPXrisNRepa2Az_6aX4yXQWyvlgL%0A4206XVDOU1bW3MFpSOWb6DY4UCgm4pjVo_DIrYfmQCtDlckAZtVnMHEQmwFmbzMnMGMxryQPWDVd%0AGcWE4THr1bTwjvfn80dMrRbLGbBMnDROF8U0gOhJaJ8-G8VUtkZpDIYLzMpLydkS7U8IqAwMX_f8%0AuS_qepzX8ICXZvPU78OIQW3HM3uVAgG6rgMvyLKhKn6R-8uONcXApWAVeG-LrOQes-Zo4gpFQe0A%0AgY9shbeRo3fgtvkiNmTz5q0iiwvPsMqoYY1mQnBTtKz5kkJy59JVaQgbIxFfm7HmoctFkMJc5bDD%0AdSvWgBHx97gFSBkIWwHKcsUTU9-0oAPkUGLyPnWt9v18C2RVF47m3h9wFyPFMcZ__9oltK1aoA-a%0Ar7Xcyn4_qeL87eE5JH7viSEtsSz7JGN2BjlDihD3FOVFtx_9SyRwjLlOo06RwzC8rn5zksW7AYvF%0AgXngZHFDYW_Hj4HAE8w2tgQGheif-0UR-aYFtVnrhPQ0zWBetsDvCPtJN6spK4yq-yIoN6QVq_IK%0AxaCwxAwgnizGyv7peyyHy7zDECPEjBOGsf2natnzx9T01UFkTlMOt9ilrkN_kIYJ2fAae7gbUE5w%0ArUh-XzpWaS4jLpsdCmrqPEUj1UROHfaOU5b0oPXkHyqBttLTPUKZ7bIhxBn3utNTM-nMUTN4dkJi%0AGVnto7vWRLL4h5UE1Cg2StqPKTKQlzO2zf3JVljf40rvsVLa9YmXbTvyAgK1KR-qs5b_oLawrW4H%0A8yMUAAAAAAAAABDM4rtcrbpNRJOL3np7O_OOn7IS%0A
+HTTP/1.1 200 OK
+Server: nginx
+Date: Wed, 19 Oct 2016 06:56:43 GMT
+Content-Type: application/octet-stream
+Content-Length: 128
+Connection: keep-alive
+Cache-Control: no-cache, no-store, must-revalidate
+Expires: -1
+Pragma: no-cache
+
+
+CpXyGiEq0jQF5CO5Z1ZveCjqIfxsl8DCQ5TrifkejJAR0guk/ph1m4Vq8eYR3Q61b2L4JvH0UZbmA446sCNgmlTEmFDa0B5bRlbpxb/u12orFZiEydAMRMRrq/n3uUqz
+
+
+------------------------------------------------------------------
+
+
+GET http://ads.mopub.com/m/ad?id=30270ecca0ff4f5ea8079af907b49923&nsv=4.9.0&dn=koobee%2CH3%2CH3&bundle=com.idroi.mysecurity&z=%2B0800&o=p&w=720&h=1280&sc_a=2.0&ct=2&av=1.0&udid=sha%3A97832d463028fb0016632d11015ef80306f238b4&dnt=0&MAGIC_NO=0&exclude=9257969a861711e6a599002590f2bb78&request_id=44d325039491496baac56a7d64b9f4a0&fail=1 HTTP/1.1
+Accept-Language: zh
+User-Agent: Mozilla/5.0 (Linux; Android 4.4.4; H3 Build/KTU84P) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/33.0.0.0 Mobile Safari/537.36
+Host: ads.mopub.com
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+
+
+HTTP/1.1 200 OK
+content-length: 0
+content-type: text/html; charset=ISO-8859-1
+date: Wed, 19 Oct 2016 06:56:44 GMT
+server: tsa_b
+x-adtype: clear
+x-backfill: clear
+x-connection-hash: 899f1864a5ee6c511a02e853d6392d36
+x-refreshtime: 30
+x-response-time: 17
+x-xss-protection: 1; mode=block
