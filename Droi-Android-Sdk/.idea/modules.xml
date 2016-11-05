@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Droi-Android-Sdk.iml" filepath="$PROJECT_DIR$/Droi-Android-Sdk.iml" />
+      <module fileurl="file://$PROJECT_DIR$/droi-sample/app.iml" filepath="$PROJECT_DIR$/droi-sample/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/droi-sdk/droi-sdk.iml" filepath="$PROJECT_DIR$/droi-sdk/droi-sdk.iml" />
+      <module fileurl="file://$PROJECT_DIR$/droi-sdk/droi-sdk-banner/droi-sdk-banner.iml" filepath="$PROJECT_DIR$/droi-sdk/droi-sdk-banner/droi-sdk-banner.iml" />
+      <module fileurl="file://$PROJECT_DIR$/droi-sdk/droi-sdk-base/droi-sdk-base.iml" filepath="$PROJECT_DIR$/droi-sdk/droi-sdk-base/droi-sdk-base.iml" />
+      <module fileurl="file://$PROJECT_DIR$/droi-sdk/droi-sdk-iterstitial/droi-sdk-iterstitial.iml" filepath="$PROJECT_DIR$/droi-sdk/droi-sdk-iterstitial/droi-sdk-iterstitial.iml" />
+      <module fileurl="file://$PROJECT_DIR$/droi-sdk/droi-sdk-native-static/droi-sdk-native-static.iml" filepath="$PROJECT_DIR$/droi-sdk/droi-sdk-native-static/droi-sdk-native-static.iml" />
+    </modules>
+  </component>
+</project>

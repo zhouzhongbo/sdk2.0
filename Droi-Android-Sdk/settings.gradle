@@ -1,0 +1,1 @@
+include ':droi-sample', ':droi-sdk', ':droi-sdk:droi-sdk-base', ':droi-sdk:droi-sdk-banner', ':droi-sdk:droi-sdk-iterstitial', 'droi-sdk:droi-sdk-native-static'
