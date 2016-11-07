@@ -8,11 +8,13 @@ public class Constants {
     public static final String HTTPS = "https";
     public static final String INTENT_SCHEME = "intent";
 
-    public static final String HOST = "ads.droi.com";
+//    full test url as below:
+//    http://49.213.8.162:2010/adverMobile/adverInfo
 
-    public static final String AD_HANDLER = "/m/ad";
-    public static final String CONVERSION_TRACKING_HANDLER = "/m/open";
-    public static final String POSITIONING_HANDLER = "/m/pos";
+    public static final String HOST = "49.213.8.162:2010";  //now is in test
+    public static final String AD_HANDLER = "/adverMobile/adverInfo"; //last value is "/m/ad";
+    public static final String CONVERSION_TRACKING_HANDLER ="/adverMobile/adverInfo";          //"/m/open";
+    public static final String POSITIONING_HANDLER =  "/adverMobile/adverInfo";    //"/m/pos";
 
 
     public static final int TEN_SECONDS_MILLIS = 10 * 1000;

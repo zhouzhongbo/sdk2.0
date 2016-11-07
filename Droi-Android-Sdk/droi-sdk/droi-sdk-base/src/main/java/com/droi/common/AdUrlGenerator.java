@@ -14,7 +14,7 @@ public abstract class AdUrlGenerator extends BaseUrlGenerator {
     /**
      * The ad unit id which identifies a spot for an ad to be placed.
      */
-    private static final String AD_UNIT_ID_KEY = "id";
+    private static final String AD_UNIT_ID_KEY = "adslotid";
 
     /**
      * nv = native version. This is the version of Droi.
@@ -100,6 +100,73 @@ public abstract class AdUrlGenerator extends BaseUrlGenerator {
      * Bundle ID, as in package name.
      */
     private static final String BUNDLE_ID_KEY = "bundle";
+
+    //add for adcontrol start
+    /**
+     *IMEI setting
+     */
+    private static final String IMEI_KEY = "imei";
+
+    /**
+     *IMSI setting
+     */
+    private static final String IMSI_KEY = "imsi";
+
+    /**
+     *mac setting
+     */
+    private static final String MAC_KEY = "mac";
+
+    /**
+     *mac1 setting
+     */
+    private static final String MAC1_KEY = "mac1";
+
+    /**
+     *AndroidID setting
+     */
+    private static final String ANDROID_ID_KEY = "androidid";
+
+    /**
+     *APPID setting
+     */
+    private static final String APPID_KEY = "appid";
+
+    /**
+     *CHANNEL setting
+     */
+    private static final String CHANNEL_ID_KEY = "channel";
+
+    /**
+     *CUSTOMER setting
+     */
+    private static final String CUSTOMER_KEY = "customer";
+
+    /**
+     *PROJECT setting
+     */
+    private static final String PROJECT_KEY = "project";
+
+    /**
+     *BRAND setting
+     */
+    private static final String BRAND_KEY = "brand";
+
+    /**
+     *HARDWARE setting
+     */
+    private static final String HARDWATE_KEY = "hardware";
+
+    /**
+     *OSVERSION setting
+     */
+    private static final String OSVERSION_KEY = "osVersion";
+
+    /**
+     *OS TYPEsetting
+     */
+    private static final String OS_TYPE_KEY = "os";
+    //add for adcontrol end
 
     protected Context mContext;
     protected String mAdUnitId;
@@ -237,6 +304,25 @@ public abstract class AdUrlGenerator extends BaseUrlGenerator {
         setAppVersion(clientMetadata.getAppVersion());
 
         appendAdvertisingInfoTemplates();
+    }
+
+    //add for droi adcontrol;
+//    private static final int os = 1;
+//    private static String mImei;
+//    private static String mImsi;
+//    private static String mMac;
+//    private static String mMac1;
+//    private static String mAndroidid;
+//    private static String mAppid ="";
+//    private static String mChannel ="";
+//
+//    private static String mCustomer = "";
+//    private static String mProject = "";
+//    private static String mBrand = "";
+//    private static String mHardware = "";
+//    private static String mOsversion = "";
+    protected void addBaseParams(final DroiMetadata droiMetadata) {
+
     }
 
     private void addParam(String key, DroiNetworkType value) {

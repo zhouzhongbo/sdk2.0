@@ -8,9 +8,6 @@ import android.content.res.Configuration;
 import android.graphics.Point;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
-import android.net.wifi.ScanResult;
-import android.net.wifi.WifiInfo;
-import android.net.wifi.WifiManager;
 import android.os.Build;
 import android.provider.Settings;
 import android.telephony.TelephonyManager;
@@ -20,10 +17,6 @@ import com.droi.common.util.DeviceUtils;
 import com.droi.common.util.Dips;
 import com.droi.common.util.Utils;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Comparator;
-import java.util.List;
 import java.util.Locale;
 
 import static android.Manifest.permission.ACCESS_NETWORK_STATE;
@@ -193,6 +186,28 @@ public class ClientMetadata {
 
         // Get the device ID. This will be replaced later when the Play Services callbacks complete.
         mUdid = getDeviceIdFromContext(mContext);
+
+        //for droi control  -->see DroiMetadata.java
+        //   Build.MANUFACTURER    (厂商)
+        if(DroiMetadata.getCustomer() == null||DroiMetadata.getCustomer().equals("")){
+            DroiMetadata.setCustomer(Build.MANUFACTURER);
+        }
+        //    Build.BRAND       (品牌)
+        if(DroiMetadata.getBrands() == null||DroiMetadata.getBrands().equals("")){
+            DroiMetadata.setBrands(Build.BRAND);
+        }
+        //    Build.PRODUCT     (客户)
+        if(DroiMetadata.getProject() == null||DroiMetadata.getProject().equals("")){
+            DroiMetadata.setCpu(Build.PRODUCT);
+        }
+        //    Build.HARDWARE    (硬件平台)
+        if(DroiMetadata.getCpu() == null||DroiMetadata.getCpu().equals("")){
+            DroiMetadata.setCpu(Build.HARDWARE);
+        }
+        //    Build.VERSION.RELEASE (Android版本号)
+        if(DroiMetadata.getOsVersion() == null||DroiMetadata.getOsVersion().equals("")){
+            DroiMetadata.setOsVersion(Build.VERSION.RELEASE);
+        }
     }
 
     private static String getAppVersionFromContext(Context context) {
@@ -423,113 +438,5 @@ public class ClientMetadata {
     public static void clearForTesting() {
         sInstance = null;
     }
-
-    //add for droi start
-    private static final int os = 1;
-    private String imei;
-    private String imsi;
-    private String mac;
-    private String mac1;
-    private String androidid;
-    private String channel;
-    private String customer;
-    private String project;
-    private String brand;
-    private String hardware;
-    private String osversion;
-
-    public String getImei(Context paramContext)
-    {
-        TelephonyManager localTelephonyManager = (TelephonyManager)paramContext.getSystemService(Context.TELEPHONY_SERVICE);
-        StringBuffer localStringBuffer = new StringBuffer();
-        try
-        {
-            if (isPermission(paramContext, "android.permission.READ_PHONE_STATE"))
-                localStringBuffer.append(localTelephonyManager.getDeviceId());
-            while (localStringBuffer.length() < 15)
-                localStringBuffer.append("0");
-        }
-        catch (Exception localException)
-        {
-            DroiLog.d("Failed to as IMEI");
-        }
-
-        return (imei = localStringBuffer.toString().replace("null", "0000"));
-    }
-
-    public String getImsi(Context paramContext)
-    {
-
-        TelephonyManager localTelephonyManager = (TelephonyManager)paramContext.getSystemService(Context.TELEPHONY_SERVICE);
-        StringBuilder localStringBuffer = new StringBuilder();
-        try
-        {
-            if (isPermission(paramContext, "android.permission.READ_PHONE_STATE")){
-                localStringBuffer.append(localTelephonyManager.getSubscriberId() == null ? "" : localTelephonyManager.getSubscriberId());
-            }
-            while (localStringBuffer.length() < 15)
-                localStringBuffer.append("0");
-        }
-        catch (Exception localException)
-        {
-            localException.printStackTrace();
-            DroiLog.w( "Failed Get IMSI");
-        }
-        return (imsi = localStringBuffer.toString());
-    }
-
-    public boolean isPermission(Context paramContext, String paramString)
-    {
-        PackageManager localPackageManager;
-        return (localPackageManager = paramContext.getPackageManager()).checkPermission(paramString, paramContext.getPackageName()) == 0;
-    }
-
-    public String getLocalMacAddress(Context context) {
-        if (isPermission(context, android.Manifest.permission.ACCESS_WIFI_STATE)) {
-            try {
-                WifiManager wifi = (WifiManager) context.getSystemService(Context.WIFI_SERVICE);
-                WifiInfo info = wifi.getConnectionInfo();
-                DroiLog.d(info.getMacAddress());
-                return info.getMacAddress();
-            } catch (Exception e) {
-                return "";
-            }
-        }
-        return "";
-    }
-    private static final int MAX_WIFI = 5;
-    public List<String[]> getWIFI(Context context) {
-        List<String[]> wifis = new ArrayList<String[]>();
-        try {// wifi location
-            if (isPermission(context, android.Manifest.permission.ACCESS_WIFI_STATE)) {
-                WifiManager wifiManager = (WifiManager) context.getSystemService(Context.WIFI_SERVICE);
-                if (wifiManager.isWifiEnabled()) {
-                    List<ScanResult> scans = wifiManager.getScanResults();
-                    // Log.w("[d]", scans);
-                    Collections.sort(scans, new Comparator<ScanResult>() {
-                        @Override
-                        public int compare(ScanResult o1, ScanResult o2) {
-                            return o2.level - o1.level;
-                        }
-                    });
-
-                    for (int i = 0; i < scans.size() && i < MAX_WIFI; ++i) {
-                        ScanResult res = scans.get(i);
-                        String mac = res.BSSID.replace(":", "").toLowerCase(); // 123456789012
-                        String[] wifi = new String[2];
-                        wifi[0] = mac;
-                        wifi[1] = Math.abs(res.level) + "";
-                        wifis.add(wifi);
-                    }
-                }
-            }
-
-        } catch (Exception e) {
-            DroiLog.d(e.toString());
-        }
-
-        return wifis;
-    }
-
 
 }

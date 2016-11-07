@@ -1,5 +1,11 @@
 package com.droi.common.util;
 
+import android.content.Context;
+import android.content.pm.ApplicationInfo;
+import android.content.pm.PackageManager;
+
+import com.droi.common.logging.DroiLog;
+
 import java.io.UnsupportedEncodingException;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
@@ -82,4 +88,26 @@ public class Utils {
         }
     }
 
+    public static String getKeyValue(Context context, String mkey) {
+        String keyvalue = "";
+        try {
+            PackageManager manager = context.getPackageManager();
+            ApplicationInfo info = manager.getApplicationInfo(context.getPackageName(), PackageManager.GET_META_DATA);
+
+            if ((info != null) && (info.metaData != null)) {
+                Object idObject = info.metaData.get(mkey);
+                if (idObject != null) {
+                    String id = idObject.toString();
+                    if (id != null)
+                        keyvalue = id;
+                    else
+                        DroiLog.d(new StringBuilder().append("Could not read ").append(mkey).append(" meta-data from AndroidManifest.xml.").toString());
+                }
+            }
+        } catch (Exception e) {
+            DroiLog.e(new StringBuilder().append("Could not read ").append(mkey).append(" meta-data from AndroidManifest.xml.").toString());
+            e.printStackTrace();
+        }
+        return keyvalue;
+    }
 }

@@ -3,7 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Droi-Android-Sdk.iml" filepath="$PROJECT_DIR$/Droi-Android-Sdk.iml" />
-      <module fileurl="file://$PROJECT_DIR$/droi-sample/app.iml" filepath="$PROJECT_DIR$/droi-sample/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/droi-sample/droi-sample.iml" filepath="$PROJECT_DIR$/droi-sample/droi-sample.iml" />
       <module fileurl="file://$PROJECT_DIR$/droi-sdk/droi-sdk.iml" filepath="$PROJECT_DIR$/droi-sdk/droi-sdk.iml" />
       <module fileurl="file://$PROJECT_DIR$/droi-sdk/droi-sdk-banner/droi-sdk-banner.iml" filepath="$PROJECT_DIR$/droi-sdk/droi-sdk-banner/droi-sdk-banner.iml" />
       <module fileurl="file://$PROJECT_DIR$/droi-sdk/droi-sdk-base/droi-sdk-base.iml" filepath="$PROJECT_DIR$/droi-sdk/droi-sdk-base/droi-sdk-base.iml" />

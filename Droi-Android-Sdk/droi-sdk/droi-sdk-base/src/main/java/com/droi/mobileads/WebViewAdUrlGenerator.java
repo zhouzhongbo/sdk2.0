@@ -5,6 +5,7 @@ import android.content.Context;
 import com.droi.common.AdUrlGenerator;
 import com.droi.common.ClientMetadata;
 import com.droi.common.Constants;
+import com.droi.common.DroiMetadata;
 
 public class WebViewAdUrlGenerator extends AdUrlGenerator {
     private final boolean mIsStorePictureSupported;
@@ -22,6 +23,11 @@ public class WebViewAdUrlGenerator extends AdUrlGenerator {
 
         final ClientMetadata clientMetadata = ClientMetadata.getInstance(mContext);
         addBaseParams(clientMetadata);
+
+        //add for droi control start
+        DroiMetadata droimetadata = new DroiMetadata(mContext);
+        addBaseParams(droimetadata);
+        //add for droi control end
 
         setMraidFlag(true);
 

@@ -11,7 +11,7 @@ import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 
 public class Droi {
-    public static final String SDK_VERSION = "4.9.0";
+    public static final String SDK_VERSION = "2.0.0";
 
     public enum LocationAwareness { NORMAL, TRUNCATED, DISABLED }
 

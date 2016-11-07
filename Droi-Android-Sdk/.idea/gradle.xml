@@ -8,7 +8,7 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/droi-sample" />
             <option value="$PROJECT_DIR$/droi-sdk" />
             <option value="$PROJECT_DIR$/droi-sdk/droi-sdk-banner" />
             <option value="$PROJECT_DIR$/droi-sdk/droi-sdk-base" />
