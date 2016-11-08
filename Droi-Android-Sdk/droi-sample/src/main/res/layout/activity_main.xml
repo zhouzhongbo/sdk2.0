@@ -9,9 +9,29 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.droi.sample.MainActivity">
+    
+    <com.droi.mobileads.DroiView
+        android:id="@+id/adview"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        />
 
-    <TextView
+    <Button
+        android:text="插屏廣告"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:layout_marginTop="97dp"
+        android:id="@+id/droi_interstitial_button"
+        android:layout_below="@+id/adview"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:text="原生廣告"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/droi_interstitial_button"
+        android:layout_alignStart="@+id/droi_interstitial_button"
+        android:layout_marginBottom="116dp"
+        android:id="@+id/droi_native_button" />
 </RelativeLayout>

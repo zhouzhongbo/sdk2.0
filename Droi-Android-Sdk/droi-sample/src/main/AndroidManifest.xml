@@ -2,6 +2,12 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.droi.sample">
 
+    <!-- droi permission -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -15,6 +21,36 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <!-- droi config start -->
+        <activity
+            android:name="com.droi.mobileads.DroiActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize" />
+        <activity
+            android:name="com.droi.mobileads.MraidActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize" />
+        <activity
+            android:name="com.droi.common.DroiBrowser"
+            android:configChanges="keyboardHidden|orientation|screenSize" />
+        <activity
+            android:name="com.droi.mobileads.MraidVideoPlayerActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize" />
+        <!-- droi config end -->
+
+        <activity android:name=".NativeActivity"></activity>
+
+
+
+        <meta-data android:name="DROI_APPID" android:value="b19c01f6-ef6c-446d-a224-9308178565e6"/>
+        <meta-data android:name="DROI_CHANNEL" android:value="droi"/>
+
+    <!--
+        <meta-data android:name="DROI_CUSTOMER" android:value="test_customer"/>
+        <meta-data android:name="DROI_BRANDS" android:value="test_brands"/>
+        <meta-data android:name="DROI_PROJECT" android:value="test_project"/>
+        <meta-data android:name="DROI_CPU" android:value="test_cpu"/>
+        <meta-data android:name="DROI_OSVERSION" android:value="test_version"/>
+        -->
     </application>
 
 </manifest>
