@@ -189,24 +189,25 @@ public class ClientMetadata {
 
         //for droi control  -->see DroiMetadata.java
         //   Build.MANUFACTURER    (厂商)
-        if(DroiMetadata.getCustomer() == null||DroiMetadata.getCustomer().equals("")){
-            DroiMetadata.setCustomer(Build.MANUFACTURER);
+        DroiMetadata droiMetaData = DroiMetadata.getInstance(context);
+        if(droiMetaData.getCustomer() == null||droiMetaData.getCustomer().equals("")){
+            droiMetaData.setCustomer(Build.MANUFACTURER);
         }
         //    Build.BRAND       (品牌)
-        if(DroiMetadata.getBrands() == null||DroiMetadata.getBrands().equals("")){
-            DroiMetadata.setBrands(Build.BRAND);
+        if(droiMetaData.getBrands() == null||droiMetaData.getBrands().equals("")){
+            droiMetaData.setBrands(Build.BRAND);
         }
         //    Build.PRODUCT     (客户)
-        if(DroiMetadata.getProject() == null||DroiMetadata.getProject().equals("")){
-            DroiMetadata.setCpu(Build.PRODUCT);
+        if(droiMetaData.getProject() == null||droiMetaData.getProject().equals("")){
+            droiMetaData.setCpu(Build.PRODUCT);
         }
         //    Build.HARDWARE    (硬件平台)
-        if(DroiMetadata.getCpu() == null||DroiMetadata.getCpu().equals("")){
-            DroiMetadata.setCpu(Build.HARDWARE);
+        if(droiMetaData.getCpu() == null||droiMetaData.getCpu().equals("")){
+            droiMetaData.setCpu(Build.HARDWARE);
         }
         //    Build.VERSION.RELEASE (Android版本号)
-        if(DroiMetadata.getOsVersion() == null||DroiMetadata.getOsVersion().equals("")){
-            DroiMetadata.setOsVersion(Build.VERSION.RELEASE);
+        if(droiMetaData.getOsVersion() == null||droiMetaData.getOsVersion().equals("")){
+            droiMetaData.setOsVersion(Build.VERSION.RELEASE);
         }
     }
 

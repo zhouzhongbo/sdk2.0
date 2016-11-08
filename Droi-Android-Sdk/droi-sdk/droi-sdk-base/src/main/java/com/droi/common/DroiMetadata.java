@@ -28,23 +28,23 @@ public class DroiMetadata {
     private static DroiMetadata droiMetadata;
     private static Context mAppContext;
 
-    private static final int os = 1;
-    private static String mImei;
-    private static String mImsi;
-    private static String mMac;
-    private static String mMac1;
-    private static String mAndroidid;
-    private static String mAppid ="";
-    private static String mChannel ="";
+    private final int os = 1;
+    private String mImei;
+    private String mImsi;
+    private String mMac;
+    private String mMac1;
+    private String mAndroidid;
+    private String mAppid ="";
+    private String mChannel ="";
 
-    private static String mCustomer = "";
-    private static String mProject = "";
-    private static String mBrand = "";
-    private static String mHardware = "";
-    private static String mOsversion = "";
+    private String mCustomer = "";
+    private String mProject = "";
+    private String mBrand = "";
+    private String mHardware = "";
+    private String mOsversion = "";
 
 
-    public DroiMetadata(Context context) {
+    private DroiMetadata(Context context) {
         mImei = initializeImei(context);
         mImsi = initializeImsi(context);
         mMac = getLocalMacAddress(context);
@@ -52,6 +52,12 @@ public class DroiMetadata {
         mAndroidid = initializeAndroidId(context);
     }
 
+    public static DroiMetadata getInstance(Context mcontext){
+        if(droiMetadata == null){
+            droiMetadata = new DroiMetadata(mcontext);
+        }
+        return droiMetadata;
+    }
 
     public String initializeImei(Context paramContext)
     {
@@ -93,7 +99,7 @@ public class DroiMetadata {
         return (mImsi = localStringBuffer.toString());
     }
 
-    public static String initializeAndroidId(Context paramContext){
+    public String initializeAndroidId(Context paramContext){
         TelephonyManager localTelephonyManager = (TelephonyManager)paramContext.getSystemService(Context.TELEPHONY_SERVICE);
         String android_id = localTelephonyManager.getDeviceId();
         return android_id;
@@ -120,7 +126,7 @@ public class DroiMetadata {
         return "";
     }
 
-    public static JSONArray list2Json(List<String[]> list) {
+    public JSONArray list2Json(List<String[]> list) {
         JSONArray json = new JSONArray();
         try {
             for (int i = 0; i < list.size(); ++i) {
@@ -136,7 +142,7 @@ public class DroiMetadata {
         return json;
     }
 
-    private static final int MAX_WIFI = 5;
+    private final int MAX_WIFI = 5;
     public List<String[]> getWIFI(Context context) {
         List<String[]> wifis = new ArrayList<String[]>();
         try {// wifi location
@@ -170,60 +176,60 @@ public class DroiMetadata {
         return wifis;
     }
 
-    public static void setAppID(String appId){
+    public void setAppID(String appId){
         mAppid = appId;
     }
 
-    public static String getAppID(){
+    public String getAppID(){
         return mAppid;
     }
 
-    public static void setChannel(String channel){
+    public void setChannel(String channel){
         mChannel = channel;
     }
 
-    public static String getChannel(){
+    public String getChannel(){
         return mChannel;
     }
 
-    public static void setCustomer(String customer){
+    public void setCustomer(String customer){
         mCustomer = customer;
     }
 
-    public static String getCustomer(){
+    public String getCustomer(){
         return mCustomer;
     }
 
-    public static void setBrands(String brands){
+    public void setBrands(String brands){
         mBrand = brands;
     }
 
-    public static String getBrands(){
+    public String getBrands(){
         return mBrand;
     }
 
 
-    public static void setProject(String project){
+    public void setProject(String project){
         mProject = project;
     }
 
-    public static String getProject(){
+    public String getProject(){
         return mProject;
     }
 
-    public static void setCpu(String cpu){
+    public void setCpu(String cpu){
         mHardware = cpu;
     }
 
-    public static String getCpu(){
+    public String getCpu(){
         return mHardware;
     }
 
-    public static void setOsVersion(String osversion){
+    public void setOsVersion(String osversion){
         mOsversion = osversion;
     }
 
-    public static String getOsVersion(){
+    public String getOsVersion(){
         return mOsversion;
     }
 

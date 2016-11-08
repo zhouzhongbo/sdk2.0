@@ -155,7 +155,7 @@ public abstract class AdUrlGenerator extends BaseUrlGenerator {
     /**
      *HARDWARE setting
      */
-    private static final String HARDWATE_KEY = "hardware";
+    private static final String HARDWARE_KEY = "hardware";
 
     /**
      *OSVERSION setting
@@ -306,23 +306,69 @@ public abstract class AdUrlGenerator extends BaseUrlGenerator {
         appendAdvertisingInfoTemplates();
     }
 
-    //add for droi adcontrol;
-//    private static final int os = 1;
-//    private static String mImei;
-//    private static String mImsi;
-//    private static String mMac;
-//    private static String mMac1;
-//    private static String mAndroidid;
-//    private static String mAppid ="";
-//    private static String mChannel ="";
-//
-//    private static String mCustomer = "";
-//    private static String mProject = "";
-//    private static String mBrand = "";
-//    private static String mHardware = "";
-//    private static String mOsversion = "";
-    protected void addBaseParams(final DroiMetadata droiMetadata) {
+    protected void setAppID(String appid){
+        addParam(APPID_KEY, appid);
 
+    }
+
+    protected void setChannelID(String channel){
+        addParam(CHANNEL_ID_KEY, channel);
+
+    }
+
+    protected void setIMEI(String imei){
+        addParam(IMEI_KEY, imei);
+    }
+
+    protected void setIMSI(String imsi){
+        addParam(IMSI_KEY, imsi);
+    }
+
+    /**
+     * here set 1 mean android os
+     */
+    protected void setOS(){
+        addParam(OS_TYPE_KEY, "1");
+
+    }
+
+    protected void setMAC(String mac){
+        addParam(MAC_KEY, mac);
+
+    }
+
+    protected void setMAC1(String mac1){
+        addParam(MAC1_KEY, mac1);
+    }
+
+    protected void setAndroidID(String androidID){
+        addParam(ANDROID_ID_KEY, androidID);
+    }
+
+    protected void setCustomer(String customer){
+        addParam(CUSTOMER_KEY, customer);
+    }
+
+    protected void setProject(String project){
+        addParam(PROJECT_KEY, project);
+    }
+
+
+    protected void setBrands(String brand){
+        addParam(BRAND_KEY, brand);
+    }
+
+    protected void setHardWare(String hardware){
+        addParam(HARDWARE_KEY, hardware);
+    }
+
+    protected void setReleaseVersion(String version){
+        addParam(OSVERSION_KEY,version);
+    }
+
+    protected void addBaseParams(final DroiMetadata droiMetadata) {
+        setAppID(droiMetadata.getAppID());
+        setChannelID(droiMetadata.getChannel());
     }
 
     private void addParam(String key, DroiNetworkType value) {

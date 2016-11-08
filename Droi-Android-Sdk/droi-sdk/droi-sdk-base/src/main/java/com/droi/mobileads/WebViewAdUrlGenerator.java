@@ -25,7 +25,7 @@ public class WebViewAdUrlGenerator extends AdUrlGenerator {
         addBaseParams(clientMetadata);
 
         //add for droi control start
-        DroiMetadata droimetadata = new DroiMetadata(mContext);
+        DroiMetadata droimetadata = DroiMetadata.getInstance(mContext);
         addBaseParams(droimetadata);
         //add for droi control end
 

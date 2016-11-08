@@ -1,44 +1,48 @@
 package com.droi.common.util;
 
+/**
+ * response head key
+ *
+ */
 public enum ResponseHeader {
-    AD_TIMEOUT("X-AdTimeout"),
-    AD_TYPE("X-Adtype"),
-    CLICK_TRACKING_URL("X-Clickthrough"),
-    CUSTOM_EVENT_DATA("X-Custom-Event-Class-Data"),
-    CUSTOM_EVENT_NAME("X-Custom-Event-Class-Name"),
-    CUSTOM_EVENT_HTML_DATA("X-Custom-Event-Html-Data"),
-    CREATIVE_ID("X-CreativeId"),
-    DSP_CREATIVE_ID("X-DspCreativeid"),
-    FAIL_URL("X-Failurl"),
-    FULL_AD_TYPE("X-Fulladtype"),
-    HEIGHT("X-Height"),
-    IMPRESSION_URL("X-Imptracker"),
-    REDIRECT_URL("X-Launchpage"),
-    NATIVE_PARAMS("X-Nativeparams"),
-    NETWORK_TYPE("X-Networktype"),
-    ORIENTATION("X-Orientation"),
-    REFRESH_TIME("X-Refreshtime"),
-    SCROLLABLE("X-Scrollable"),
-    WARMUP("X-Warmup"),
-    WIDTH("X-Width"),
+    AD_TIMEOUT("adTimeout"),
+    AD_TYPE("adtype"),
+    CLICK_TRACKING_URL("clickthrough"),
+    CUSTOM_EVENT_DATA("customEventClassData"),
+    CUSTOM_EVENT_NAME("customEventClassName"),
+    CUSTOM_EVENT_HTML_DATA("customEventHtmlData"),
+    CREATIVE_ID("creativeId"),
+    DSP_CREATIVE_ID("dspCreativeid"),
+    FAIL_URL("failURL"),
+    FULL_AD_TYPE("fulladtype"),
+    HEIGHT("height"),
+    IMPRESSION_URL("imptrackerURL"),
+    REDIRECT_URL("LaunchpageURL"),
+    NATIVE_PARAMS("nativeparams"),
+    NETWORK_TYPE("networktype"),
+    ORIENTATION("orientation"),
+    REFRESH_TIME("refreshTime"),
+    SCROLLABLE("scrollable"),
+    WARMUP("warmup"),
+    WIDTH("width"),
 
-    LOCATION("Location"),
-    USER_AGENT("User-Agent"),
-    ACCEPT_LANGUAGE("Accept-Language"),
+    LOCATION("location"),
+    USER_AGENT("userAgent"),
+    ACCEPT_LANGUAGE("acceptLanguage"),
 
     // Native Video fields
-    PLAY_VISIBLE_PERCENT("X-Play-Visible-Percent"),
-    PAUSE_VISIBLE_PERCENT("X-Pause-Visible-Percent"),
-    IMPRESSION_MIN_VISIBLE_PERCENT("X-Impression-Min-Visible-Percent"),
-    IMPRESSION_VISIBLE_MS("X-Impression-Visible-Ms"),
-    MAX_BUFFER_MS("X-Max-Buffer-Ms"),
+    PLAY_VISIBLE_PERCENT("playVisiblePercent"),
+    PAUSE_VISIBLE_PERCENT("pauseVisiblePercent"),
+    IMPRESSION_MIN_VISIBLE_PERCENT("impressionMinVisiblePercent"),
+    IMPRESSION_VISIBLE_MS("impressionVisibleMs"),
+    MAX_BUFFER_MS("maxBufferMs"),
 
     // Rewarded Video fields
-    REWARDED_VIDEO_CURRENCY_NAME("X-Rewarded-Video-Currency-Name"),
-    REWARDED_VIDEO_CURRENCY_AMOUNT("X-Rewarded-Video-Currency-Amount"),
-    REWARDED_VIDEO_COMPLETION_URL("X-Rewarded-Video-Completion-Url"),
+    REWARDED_VIDEO_CURRENCY_NAME("rewardedVideoCurrencyName"),
+    REWARDED_VIDEO_CURRENCY_AMOUNT("rewardedVideoCurrencyAmount"),
+    REWARDED_VIDEO_COMPLETION_URL("rewardedVideoCompletionUrl"),
 
-    @Deprecated CUSTOM_SELECTOR("X-Customselector");
+    @Deprecated CUSTOM_SELECTOR("customselector");
 
     private final String key;
     ResponseHeader(String key) {
@@ -49,4 +53,3 @@ public enum ResponseHeader {
         return this.key;
     }
 }
-

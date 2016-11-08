@@ -16,12 +16,15 @@ public class AdControl {
     private static Context appContext;
     public static final String MD_APPID = "DROI_APPID";
     public static final String MD_CHANNEL = "DROI_CHANNEL";
+    private static DroiMetadata mDroiMetadata;
+    private static boolean initsatatus = true;
 
     /**
      * @param context context of application.
      */
     public static AdControl initialize(Application context) throws Exception{
         madControl = getInstance(context);
+        mDroiMetadata = DroiMetadata.getInstance(context);
         appContext = context;
         maniFestDataInit(context);
         return madControl;
@@ -36,16 +39,18 @@ public class AdControl {
     private static void maniFestDataInit(Context mcontext) throws Exception {
         String appid = Utils.getKeyValue(mcontext,MD_APPID);
         if(appid == null || appid.equals("")){
+            initsatatus = false;
             throw new Exception("Can't find DROI_APPID setting in your Manifest.xml!");
         }else{
-            DroiMetadata.setAppID(appid);
+            mDroiMetadata.setAppID(appid);
         }
 
         String channel = Utils.getKeyValue(mcontext,MD_CHANNEL);
         if(channel == null || channel.equals("")){
+            initsatatus = false;
             throw new Exception("Can't find DROI_CHANNEL setting in your Manifest.xml!");
         }else{
-            DroiMetadata.setChannel(channel);
+            mDroiMetadata.setChannel(channel);
         }
     }
 
@@ -57,7 +62,7 @@ public class AdControl {
         if (madControl == null) {
             madControl = AdControl.getInstance(appContext);
         }
-        DroiMetadata.setCustomer(customer);
+        mDroiMetadata.setCustomer(customer);
         return madControl;
     }
 
@@ -69,7 +74,7 @@ public class AdControl {
         if (madControl == null) {
             madControl = AdControl.getInstance(appContext);
         }
-        DroiMetadata.setBrands( brand);
+        mDroiMetadata.setBrands( brand);
         return madControl;
     }
 
@@ -81,7 +86,7 @@ public class AdControl {
         if (madControl == null) {
             madControl = AdControl.getInstance(appContext);
         }
-        DroiMetadata.setProject( project);
+        mDroiMetadata.setProject( project);
         return madControl;
     }
 
@@ -93,7 +98,7 @@ public class AdControl {
         if (madControl == null) {
             madControl = AdControl.getInstance(appContext);
         }
-        DroiMetadata.setCpu( cpu);
+        mDroiMetadata.setCpu( cpu);
         return madControl;
     }
 
@@ -105,7 +110,12 @@ public class AdControl {
         if (madControl == null) {
             madControl = AdControl.getInstance(appContext);
         }
-        DroiMetadata.setOsVersion( version);
+        mDroiMetadata.setOsVersion( version);
         return madControl;
+    }
+
+    //if no init,never do ad rq.
+    public static boolean getInitStatus(){
+        return initsatatus;
     }
 }
